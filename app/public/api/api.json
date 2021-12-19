@@ -1906,7 +1906,7 @@
             "image" : "api/bows/Bow_of_Light.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Wooden_Bow" : {
             "names" : {
@@ -1921,7 +1921,7 @@
             "image" : "api/bows/Wooden_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Traveler's_Bow" : {
             "names" : {
@@ -1936,7 +1936,7 @@
             "image" : "api/bows/Traveler's_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Soldier's_Bow" : {
             "names" : {
@@ -1951,7 +1951,7 @@
             "image" : "api/bows/Soldier's_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Knight's_Bow" : {
             "names" : {
@@ -1966,7 +1966,7 @@
             "image" : "api/bows/Knight's_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Royal_Bow" : {
             "names" : {
@@ -1981,7 +1981,7 @@
             "image" : "api/bows/Royal_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Forest_Dweller's_Bow" : {
             "names" : {
@@ -1996,7 +1996,7 @@
             "image" : "api/bows/Forest_Dweller's_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Silver_Bow" : {
             "names" : {
@@ -2011,7 +2011,7 @@
             "image" : "api/bows/Silver_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Swallow_Bow" : {
             "names" : {
@@ -2026,7 +2026,7 @@
             "image" : "api/bows/Swallow_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Falcon_Bow" : {
             "names" : {
@@ -2041,7 +2041,7 @@
             "image" : "api/bows/Falcon_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Great_Eagle_Bow" : {
             "names" : {
@@ -2056,7 +2056,7 @@
             "image" : "api/bows/Great_Eagle_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Golden_Bow" : {
             "names" : {
@@ -2071,7 +2071,7 @@
             "image" : "api/bows/Golden_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Phrenic_Bow" : {
             "names" : {
@@ -2086,7 +2086,7 @@
             "image" : "api/bows/Phrenic_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Ancient_Bow" : {
             "names" : {
@@ -2101,7 +2101,7 @@
             "image" : "api/bows/Ancient_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Twilight_Bow" : {
             "names" : {
@@ -2116,7 +2116,7 @@
             "image" : "api/bows/Twilight_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Boko_Bow" : {
             "names" : {
@@ -2131,7 +2131,7 @@
             "image" : "api/bows/Boko_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Spiked_Boko_Bow" : {
             "names" : {
@@ -2146,7 +2146,7 @@
             "image" : "api/bows/Spiked_Boko_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Lizal_Bow" : {
             "names" : {
@@ -2161,7 +2161,7 @@
             "image" : "api/bows/Lizal_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Strengthened_Lizal_Bow" : {
             "names" : {
@@ -2176,7 +2176,7 @@
             "image" : "api/bows/Strengthened_Lizal_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Steel_Lizal_Bow" : {
             "names" : {
@@ -2191,7 +2191,7 @@
             "image" : "api/bows/Steel_Lizal_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Lynel_Bow" : {
             "names" : {
@@ -2206,7 +2206,7 @@
             "image" : "api/bows/Lynel_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Mighty_Lynel_Bow" : {
             "names" : {
@@ -2221,7 +2221,7 @@
             "image" : "api/bows/Mighty_Lynel_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Savage_Lynel_Bow" : {
             "names" : {
@@ -2236,7 +2236,7 @@
             "image" : "api/bows/Savage_Lynel_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
         },
         "Duplex_Bow" : {
             "names" : {
@@ -2251,7 +2251,474 @@
             "image" : "api/bows/Duplex_Bow.png",
             "recipe" : null,
             "Location" : null,
-            "category" : "spear"
+            "category" : "bow"
+        }
+    },
+    "shields" : {
+        "Hylian_Shield" : {
+            "names" : {
+                "en" : "Hylian_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Hylian_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Pot_Lid" : {
+            "names" : {
+                "en" : "Pot_Lid",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Pot_Lid.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Emblazoned_Shield" : {
+            "names" : {
+                "en" : "Emblazoned_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Emblazoned_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Hunter's_Shield" : {
+            "names" : {
+                "en" : "Hunter's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Hunter's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Fisherman's_Shield" : {
+            "names" : {
+                "en" : "Fisherman's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Fisherman's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Traveler's_Shield" : {
+            "names" : {
+                "en" : "Traveler's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Traveler's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Soldier's_Shield" : {
+            "names" : {
+                "en" : "Soldier's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Soldier's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Knight's_Shield" : {
+            "names" : {
+                "en" : "Knight's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Knight's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Royal_Shield" : {
+            "names" : {
+                "en" : "Royal_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Royal_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Forest_Dweller's_Shield" : {
+            "names" : {
+                "en" : "Forest_Dweller's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Forest_Dweller's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Silver_Shield" : {
+            "names" : {
+                "en" : "Silver_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Silver_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Kite_Shield" : {
+            "names" : {
+                "en" : "Kite_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Kite_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Gerudo_Shield" : {
+            "names" : {
+                "en" : "Gerudo_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Gerudo_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Radiant_Shield" : {
+            "names" : {
+                "en" : "Radiant_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Radiant_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Daybreaker" : {
+            "names" : {
+                "en" : "Daybreaker",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Daybreaker.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Shield_of_the_Mind's_Eye" : {
+            "names" : {
+                "en" : "Shield_of_the_Mind's_Eye",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Shield_of_the_Mind's_Eye.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Ancient_Shield" : {
+            "names" : {
+                "en" : "Ancient_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Ancient_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Rusty_Shield" : {
+            "names" : {
+                "en" : "Rusty_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Rusty_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Hero's_Shield" : {
+            "names" : {
+                "en" : "Hero's_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Hero's_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Boko_Shield" : {
+            "names" : {
+                "en" : "Boko_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Boko_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Spiked_Boko_Shield" : {
+            "names" : {
+                "en" : "Spiked_Boko_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Spiked_Boko_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Dragonbone_Boko_Shield" : {
+            "names" : {
+                "en" : "Dragonbone_Boko_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Dragonbone_Boko_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Lizal_Shield" : {
+            "names" : {
+                "en" : "Lizal_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Lizal_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Reinforced_Lizal_Shield" : {
+            "names" : {
+                "en" : "Reinforced_Lizal_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Reinforced_Lizal_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Steel_Lizal_Shield" : {
+            "names" : {
+                "en" : "Steel_Lizal_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Steel_Lizal_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Guardian_Shield" : {
+            "names" : {
+                "en" : "Guardian_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Guardian_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Guardian_Shield+" : {
+            "names" : {
+                "en" : "Guardian_Shield+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Guardian_Shield+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Guardian_Shield++" : {
+            "names" : {
+                "en" : "Guardian_Shield++",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Guardian_Shield++.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Lynel_Shield" : {
+            "names" : {
+                "en" : "Lynel_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Lynel_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Mighty_Lynel_Shield" : {
+            "names" : {
+                "en" : "Mighty_Lynel_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Mighty_Lynel_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
+        },
+        "Savage_Lynel_Shield" : {
+            "names" : {
+                "en" : "Savage_Lynel_Shield",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/shields/Savage_Lynel_Shield.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "shield"
         }
     }
 }

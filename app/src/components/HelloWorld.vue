@@ -6,6 +6,7 @@ export default {
   setup() {
     const weapons = ref([])
     const bows = ref([])
+    const shields = ref([])
     const lang = ref('')
 
     const showWeapons = ref(false)
@@ -13,6 +14,7 @@ export default {
     const showTwoHanded = ref(false)
     const showSpear = ref(false)
     const showBows = ref(false)
+    const showShields = ref(false)
 
     onMounted(() => {
       axios.get('api/api.json')
@@ -20,6 +22,7 @@ export default {
         console.log(res.data)
         weapons.value = res.data.weapons
         bows.value = res.data.bows
+        shields.value = res.data.shields
         lang.value = 'en'
       })
       .catch(err => console.log(err))
@@ -36,10 +39,12 @@ export default {
           showSpear.value = !showSpear.value
         } else if (div == "bows") {
           showBows.value = !showBows.value
+        } else if (div == "shields") {
+          showShields.value = !showShields.value
         }
     }
 
-    return { weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows}
+    return { weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields}
   }
 }
 
@@ -77,12 +82,23 @@ export default {
   </div>
 </div>
 <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2" @click="toggleShow('bows')">> Bows</h1>
-<div v-if="showBows" @click="toggleShow('one-handed')">
+<div v-if="showBows">
   <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showBows">
     <div class="flex justify-center items-center" v-for="(bows, name) in bows">
       <div class="flex flex-col items-center h-50 w-60">
           <img class="border p-3 bg-gray-600 rounded w-20 h-20" :src="bows.image">
           <p class="py-2" v-if="bows.names[lang]">{{ bows.names[lang].replace(/_/g, ' ') }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2" @click="toggleShow('shields')">> Shields</h1>
+<div v-if="showShields">
+  <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showShields">
+    <div class="flex justify-center items-center" v-for="(shields, name) in shields">
+      <div class="flex flex-col items-center h-50 w-60">
+          <img class="border p-3 bg-gray-600 rounded w-20 h-20" :src="shields.image">
+          <p class="py-2" v-if="shields.names[lang]">{{ shields.names[lang].replace(/_/g, ' ') }}</p>
       </div>
     </div>
   </div>
