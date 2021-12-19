@@ -4327,5 +4327,562 @@
             "Location" : null,
             "category" : "leg"
         }
+    },
+    "key_items" : {
+        "Sheikah_Slate" : {
+            "names" : {
+                "en" : "Sheikah_Slate",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Sheikah_Slate.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Mipha's_Grace" : {
+            "names" : {
+                "en" : "Mipha's_Grace",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Mipha's_Grace.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        }, 
+        "Mipha's_Grace_+" : {
+            "names" : {
+                "en" : "Mipha's_Grace_+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Mipha's_Grace_+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Revali's_Gale" : {
+            "names" : {
+                "en" : "Revali's_Gale",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Revali's_Gale.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Revali's_Gale_+" : {
+            "names" : {
+                "en" : "Revali's_Gale_+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Revali's_Gale_+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Daruk's_Protection" : {
+            "names" : {
+                "en" : "Daruk's_Protection",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Daruk's_Protection.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Daruk's_Protection_+" : {
+            "names" : {
+                "en" : "Daruk's_Protection_+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Daruk's_Protection_+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Urbosa's_Fury" : {
+            "names" : {
+                "en" : "Urbosa's_Fury",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Urbosa's_Fury.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Urbosa's_Fury_+" : {
+            "names" : {
+                "en" : "Urbosa's_Fury_+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Urbosa's_Fury_+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Paraglider" : {
+            "names" : {
+                "en" : "Paraglider",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Paraglider.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Korok_Seed" : {
+            "names" : {
+                "en" : "Korok_Seed",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Korok_Seed.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Hestu's_Gift" : {
+            "names" : {
+                "en" : "Hestu's_Gift",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Hestu's_Gift.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Spirit_Orb" : {
+            "names" : {
+                "en" : "Spirit_Orb",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Spirit_Orb.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Medoh's_Emblem" : {
+            "names" : {
+                "en" : "Medoh's_Emblem",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Medoh's_Emblem.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Naboris's_Emblem" : {
+            "names" : {
+                "en" : "Naboris's_Emblem",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Naboris's_Emblem.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Rudania's_Emblem" : {
+            "names" : {
+                "en" : "Rudania's_Emblem",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Rudania's_Emblem.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Ruta's_Emblem" : {
+            "names" : {
+                "en" : "Ruta's_Emblem",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Ruta's_Emblem.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Hestu's_Maracas" : {
+            "names" : {
+                "en" : "Hestu's_Maracas",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Hestu's_Maracas.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Thunder_Helm" : {
+            "names" : {
+                "en" : "Thunder_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Thunder_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Classified_Envelope" : {
+            "names" : {
+                "en" : "Classified_Envelope",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Classified_Envelope.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Medal_of_Honor_Talus" : {
+            "names" : {
+                "en" : "Medal_of_Honor_Talus",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Medal_of_Honor_Talus.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Medal_of_Honor_Hinox" : {
+            "names" : {
+                "en" : "Medal_of_Honor_Hinox",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Medal_of_Honor_Hinox.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Medal_of_Honor_Molduga" : {
+            "names" : {
+                "en" : "Medal_of_Honor_Molduga",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Medal_of_Honor_Molduga.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Picture_of_the_Champions" : {
+            "names" : {
+                "en" : "Picture_of_the_Champions",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Picture_of_the_Champions.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Knight's_Bridle" : {
+            "names" : {
+                "en" : "Knight's_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Knight's_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Royal_Bridle" : {
+            "names" : {
+                "en" : "Royal_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Royal_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Extravagant_Bridle" : {
+            "names" : {
+                "en" : "Extravagant_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Extravagant_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Monster_Bridle" : {
+            "names" : {
+                "en" : "Monster_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Monster_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Traveler's_Bridle" : {
+            "names" : {
+                "en" : "Traveler's_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Traveler's_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Ancient_Bridle" : {
+            "names" : {
+                "en" : "Ancient_Bridle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Ancient_Bridle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Knight's_Saddle" : {
+            "names" : {
+                "en" : "Knight's_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Knight's_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Royal_Saddle" : {
+            "names" : {
+                "en" : "Royal_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Royal_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Extravagant_Saddle" : {
+            "names" : {
+                "en" : "Extravagant_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Extravagant_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Monster_Saddle" : {
+            "names" : {
+                "en" : "Monster_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Monster_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Traveler's_Saddle" : {
+            "names" : {
+                "en" : "Traveler's_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Traveler's_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Ancient_Saddle" : {
+            "names" : {
+                "en" : "Ancient_Saddle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/saddles/Ancient_Saddle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "saddles"
+        },
+        "Travel_Medallion" : {
+            "names" : {
+                "en" : "Travel_Medallion",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Travel_Medallion.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        }
     }
 }
