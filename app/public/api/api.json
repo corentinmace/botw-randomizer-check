@@ -1,0 +1,1898 @@
+{
+    "weapons" : {
+        "Master_Sword" : {
+            "names" : {
+                "en" : "Master_Sword",
+                "fr" : "Master_Sword",
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Master_Sword.png",
+            "recipe" : null,
+            "Location" : ["Korok Forest"],
+            "category" : "one-handed"
+        },
+        "Tree_Branch" : {
+            "names" : {
+                "en" : "Tree_Branch",
+                "fr" : "Branche_de_Bois",
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Tree_Branch.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Torch" : {
+            "names" : {
+                "en" : "Torch",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Torch.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Soup_Ladle" : {
+            "names" : {
+                "en" : "Soup_Ladle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Soup_Ladle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Boomerang" : {
+            "names" : {
+                "en" : "Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Spring_Loaded_Hammer" : {
+            "names" : {
+                "en" : "Spring_Loaded_Hammer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Spring_Loaded_Hammer.png",
+            "recipe" : null,
+            "Location" : ["Kilton"],
+            "category" : "one-handed"
+        },
+        "Traveler's_Sword" : {
+            "names" : {
+                "en" : "Traveler's_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Traveler's_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Soldier's_Sword" : {
+            "names" : {
+                "en" : "Soldier's_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Soldier's_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Knight's_Broadsword" : {
+            "names" : {
+                "en" : "Knight's_Broadsword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Knight's_Broadsword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Royal_Broadsword" : {
+            "names" : {
+                "en" : "Royal_Broadsword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Royal_Broadsword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Forest_Dweller's_Sword" : {
+            "names" : {
+                "en" : "Forest_Dweller's_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Forest_Dweller's_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Zora_Sword" : {
+            "names" : {
+                "en" : "Zora_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Zora_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Feathered_Edge" : {
+            "names" : {
+                "en" : "Feathered_Edge",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Feathered_Edge.png",
+            "recipe" : null,
+            "Location" : "Hebra",
+            "category" : "one-handed"
+        },
+        "Gerudo_Scimitar" : {
+            "names" : {
+                "en" : "Gerudo_Scimitar",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Gerudo_Scimitar.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Moonlight_Scimitar" : {
+            "names" : {
+                "en" : "Moonlight_Scimitar",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Moonlight_Scimitar.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Scimitar_of_the_Seven" : {
+            "names" : {
+                "en" : "Scimitar_of_the_Seven",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Scimitar_of_the_Seven.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Eightfold_Blade" : {
+            "names" : {
+                "en" : "Scimitar_of_the_Seven",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Eightfold_Blade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Ancient_Short_Sword" : {
+            "names" : {
+                "en" : "Ancient_Short_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Ancient_Short_Sword.png",
+            "recipe" : null,
+            "Location" : ["Akkala Ancient Tech Lab"],
+            "category" : "one-handed"
+        },
+        "Rusty_Broadsword" : {
+            "names" : {
+                "en" : "Rusty_Broadswor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Rusty_Broadsword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Royal_Guard's_Sword" : {
+            "names" : {
+                "en" : "Royal_Guard's_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Royal_Guard's_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Flameblade" : {
+            "names" : {
+                "en" : "Flameblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Flameblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Frostblade" : {
+            "names" : {
+                "en" : "Frostblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Frostblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Thunderblade" : {
+            "names" : {
+                "en" : "Thunderblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Thunderblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Goddess_Sword" : {
+            "names" : {
+                "en" : "Goddess_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Goddess_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Sword" : {
+            "names" : {
+                "en" : "Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Sea-Breeze_Boomerang" : {
+            "names" : {
+                "en" : "Sea-Breeze_Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Sea-Breeze_Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Boko_Club" : {
+            "names" : {
+                "en" : "Boko_Club",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Boko_Club.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Spiked_Boko_Club" : {
+            "names" : {
+                "en" : "Spiked_Boko_Club",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Spiked_Boko_Club.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Dragonbone_Boko_Club" : {
+            "names" : {
+                "en" : "Dragonbone_Boko_Club",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Dragonbone_Boko_Club.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lizal_Boomerang" : {
+            "names" : {
+                "en" : "Lizal_Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lizal_Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lizal_Forked_Boomerang" : {
+            "names" : {
+                "en" : "Lizal_Forked_Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lizal_Forked_Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lizal_Tri-Boomerang" : {
+            "names" : {
+                "en" : "Lizal_Tri-Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lizal_Tri-Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Guardian_Sword" : {
+            "names" : {
+                "en" : "Guardian_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Guardian_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Guardian_Sword+" : {
+            "names" : {
+                "en" : "Guardian_Sword+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Guardian_Sword+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Guardian_Sword++" : {
+            "names" : {
+                "en" : "Guardian_Sword++",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Guardian_Sword++.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lynel_Sword" : {
+            "names" : {
+                "en" : "Lynel_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lynel_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Mighty_Lynel_Sword" : {
+            "names" : {
+                "en" : "Mighty_Lynel_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Mighty_Lynel_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Savage_Lynel_Sword" : {
+            "names" : {
+                "en" : "Savage_Lynel_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Savage_Lynel_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Fire_Rod" : {
+            "names" : {
+                "en" : "Fire_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Fire_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Meteor_Rod" : {
+            "names" : {
+                "en" : "Meteor_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Meteor_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Ice_Rod" : {
+            "names" : {
+                "en" : "Ice_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Ice_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Blizzard_Rod" : {
+            "names" : {
+                "en" : "Blizzard_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Blizzard_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lightning_Rod" : {
+            "names" : {
+                "en" : "Lightning_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lightning_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Thunderstorm_Rod" : {
+            "names" : {
+                "en" : "Thunderstorm_Rod",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Thunderstorm_Rod.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Vicious_Sickle" : {
+            "names" : {
+                "en" : "Vicious_Sickle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Vicious_Sickle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Demon_Carver" : {
+            "names" : {
+                "en" : "Demon_Carver",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Demon_Carver.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Bokoblin_Arm" : {
+            "names" : {
+                "en" : "Bokoblin_Arm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Goddess_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Lizalfos_Arm" : {
+            "names" : {
+                "en" : "Lizalfos_Arm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/one_handed/Lizalfos_Arm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "one-handed"
+        },
+        "Korok_Leaf" : {
+            "names" : {
+                "en" : "Korok_Leaf",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Korok_Leaf.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Farming_Hoe" : {
+            "names" : {
+                "en" : "Farming_Hoe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Farming_Hoe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Boat_Oar" : {
+            "names" : {
+                "en" : "Boat_Oar",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Boat_Oar.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Woodcutter's_Axe" : {
+            "names" : {
+                "en" : "Woodcutter's_Axe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Woodcutter's_Axe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Double_Axe" : {
+            "names" : {
+                "en" : "Double_Axe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Double_Axe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Iron_Sledgehammer" : {
+            "names" : {
+                "en" : "Iron_Sledgehammer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Iron_Sledgehammer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Giant_Boomerang" : {
+            "names" : {
+                "en" : "Giant_Boomerang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Giant_Boomerang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Traveler's_Claymore" : {
+            "names" : {
+                "en" : "Traveler's_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Traveler's_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Soldier's_Claymore" : {
+            "names" : {
+                "en" : "Soldier's_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Soldier's_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Knight's_Claymore" : {
+            "names" : {
+                "en" : "Knight's_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Knight's_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Royal_Claymore" : {
+            "names" : {
+                "en" : "Royal_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Royal_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Silver_Longsword" : {
+            "names" : {
+                "en" : "Silver_Longsword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Silver_Longsword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Cobble_Crusher" : {
+            "names" : {
+                "en" : "Cobble_Crusher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Cobble_Crusher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Stone_Smasher" : {
+            "names" : {
+                "en" : "Stone_Smasher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Stone_Smasher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Boulder_Breaker" : {
+            "names" : {
+                "en" : "Boulder_Breaker",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Boulder_Breaker.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Golden_Claymore" : {
+            "names" : {
+                "en" : "Golden_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Golden_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Eightfold_Longblade" : {
+            "names" : {
+                "en" : "Eightfold_Longblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Eightfold_Longblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Edge_of_Duality" : {
+            "names" : {
+                "en" : "Edge_of_Duality",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Edge_of_Duality.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Ancient_Bladesaw" : {
+            "names" : {
+                "en" : "Ancient_Bladesaw",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Ancient_Bladesaw.png",
+            "recipe" : null,
+            "Location" : ["Akkala Ancient Tech Lab"],
+            "category" : "two-handed"
+        },
+        "Rusty_Claymore" : {
+            "names" : {
+                "en" : "Rusty_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Rusty_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Royal_Guard's_Claymore" : {
+            "names" : {
+                "en" : "Royal_Guard's_Claymore",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Royal_Guard's_Claymore.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Great_Flameblade" : {
+            "names" : {
+                "en" : "Great_Flameblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Great_Flameblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Great_Frostblade" : {
+            "names" : {
+                "en" : "Great_Frostblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Great_Frostblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Great_Thunderblade" : {
+            "names" : {
+                "en" : "Great_Thunderblade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Great_Thunderblade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Sword_of_the_six_Sages" : {
+            "names" : {
+                "en" : "Sword_of_the_six_Sages",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Sword_of_the_six_Sages.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Biggoron's_Sword" : {
+            "names" : {
+                "en" : "Biggoron's_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Biggoron's_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Fierce_Deity_Sword" : {
+            "names" : {
+                "en" : "Fierce_Deity_Sword",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Fierce_Deity_Sword.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Boko_Bat" : {
+            "names" : {
+                "en" : "Boko_Bat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Boko_Bat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Spiked_Boko_Bat" : {
+            "names" : {
+                "en" : "Spiked_Boko_Bat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Spiked_Boko_Bat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Dragonbone_Boko_Bat" : {
+            "names" : {
+                "en" : "Dragonbone_Boko_Bat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Dragonbone_Boko_Bat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+
+        "Moblin_Club" : {
+            "names" : {
+                "en" : "Moblin_Club",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Moblin_Club.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Dragonbone_Moblin_Club" : {
+            "names" : {
+                "en" : "Dragonbone_Moblin_Club",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Dragonbone_Moblin_Club.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Ancient_Battle_Axe" : {
+            "names" : {
+                "en" : "Ancient_Battle_Axe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Ancient_Battle_Axe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Ancient_Battle_Axe+" : {
+            "names" : {
+                "en" : "Ancient_Battle_Axe+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Ancient_Battle_Axe+.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Ancient_Battle_Axe++" : {
+            "names" : {
+                "en" : "Ancient_Battle_Axe++",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Ancient_Battle_Axe++.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Lynel_Crusher" : {
+            "names" : {
+                "en" : "Lynel_Crusher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Lynel_Crusher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Mighty_Lynel_Crusher" : {
+            "names" : {
+                "en" : "Mighty_Lynel_Crusher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Mighty_Lynel_Crusher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Savage_Lynel_Crusher" : {
+            "names" : {
+                "en" : "Savage_Lynel_Crusher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Savage_Lynel_Crusher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Windcleaver" : {
+            "names" : {
+                "en" : "Windcleaver",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Windcleaver.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Moblin_Arm" : {
+            "names" : {
+                "en" : "Moblin_Arm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/two_handed/Moblin_Arm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "two-handed"
+        },
+        "Wooden_Mop" : {
+            "names" : {
+                "en" : "Wooden_Mop",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Wooden_Mop.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Farmer's_Pitchfork" : {
+            "names" : {
+                "en" : "Farmer's_Pitchfork",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Farmer's_Pitchfork.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Fishing_Harpoon" : {
+            "names" : {
+                "en" : "Fishing_Harpoon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Fishing_Harpoon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Throwing_Spear" : {
+            "names" : {
+                "en" : "Throwing_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Throwing_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Traveler's_Spear" : {
+            "names" : {
+                "en" : "Traveler's_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Traveler's_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Soldier's_Spear" : {
+            "names" : {
+                "en" : "Soldier's_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Soldier's_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Knight's_Halberd" : {
+            "names" : {
+                "en" : "Knight's_Halberd",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Knight's_Halberd.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Royal_Halberd" : {
+            "names" : {
+                "en" : "Royal_Halberd",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Wooden_Mop.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Forest_Dweller's_Spear" : {
+            "names" : {
+                "en" : "Forest_Dweller's_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Forest_Dweller's_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Zora_Spear" : {
+            "names" : {
+                "en" : "Zora_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Zora_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Silverscale_Spear" : {
+            "names" : {
+                "en" : "Silverscale_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Silverscale_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Ceremonial_Trident" : {
+            "names" : {
+                "en" : "Ceremonial_Trident",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Ceremonial_Trident.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Lightscale_Trident" : {
+            "names" : {
+                "en" : "Lightscale_Trident",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Lightscale_Trident.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Drillshaft" : {
+            "names" : {
+                "en" : "Drillshaft",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Drillshaft.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Feathered_Spear" : {
+            "names" : {
+                "en" : "Feathered_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Feathered_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Gerudo_Spear" : {
+            "names" : {
+                "en" : "Gerudo_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Gerudo_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Serpentine_Spear" : {
+            "names" : {
+                "en" : "Serpentine_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Serpentine_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Ancient_Spear" : {
+            "names" : {
+                "en" : "Ancient_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Ancient_Spear.png",
+            "recipe" : null,
+            "Location" : ["Akkala Ancient Tech Lab"],
+            "category" : "spear"
+        },
+        "Rusty_Halberd" : {
+            "names" : {
+                "en" : "Rusty_Halberd",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Rusty_Halberd.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Royal_Guard's_Spear" : {
+            "names" : {
+                "en" : "Royal_Guard's_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Royal_Guard's_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Flamespear" : {
+            "names" : {
+                "en" : "Flamespear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Flamespear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Frostspear" : {
+            "names" : {
+                "en" : "Frostspear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Frostspear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Thunderspear" : {
+            "names" : {
+                "en" : "Thunderspear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Thunderspear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Boko_Spear" : {
+            "names" : {
+                "en" : "Boko_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Boko_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Spiked_Boko_Spear" : {
+            "names" : {
+                "en" : "Spiked_Boko_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Spiked_Boko_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Dragonbone_Boko_Spear" : {
+            "names" : {
+                "en" : "Dragonbone_Boko_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Dragonbone_Boko_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Moblin_Spear" : {
+            "names" : {
+                "en" : "Moblin_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Moblin_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Spiked_Moblin_Spear" : {
+            "names" : {
+                "en" : "Spiked_Moblin_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Spiked_Moblin_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Dragonbone_Moblin_Spear" : {
+            "names" : {
+                "en" : "Dragonbone_Moblin_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Dragonbone_Moblin_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Lizal_Spear" : {
+            "names" : {
+                "en" : "Lizal_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Lizal_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Enhanced_Lizal_Spear" : {
+            "names" : {
+                "en" : "Enhanced_Lizal_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Enhanced_Lizal_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Forked_Lizal_Spear" : {
+            "names" : {
+                "en" : "Forked_Lizal_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Forked_Lizal_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Guardian_Spear" : {
+            "names" : {
+                "en" : "Guardian_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Guardian_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Guardian_Spear+" : {
+            "names" : {
+                "en" : "Guardian_Spear+",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Guardian_Spear++.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Guardian_Spear++" : {
+            "names" : {
+                "en" : "Guardian_Spear++",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Guardian_Spear++.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Lynel_Spear" : {
+            "names" : {
+                "en" : "Lynel_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Lynel_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Mighty_Lynel_Spear" : {
+            "names" : {
+                "en" : "Mighty_Lynel_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Mighty_Lynel_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Savage_Lynel_Spear" : {
+            "names" : {
+                "en" : "Savage_Lynel_Spear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/weapons/spear/Savage_Lynel_Spear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        }
+    },
+    "bows" : {
+
+    }
+}
