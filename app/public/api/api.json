@@ -1080,9 +1080,9 @@
             "Location" : null,
             "category" : "two-handed"
         },
-        "Sword_of_the_six_Sages" : {
+        "Sword_of_the_Six_Sages" : {
             "names" : {
-                "en" : "Sword_of_the_six_Sages",
+                "en" : "Sword_of_the_Six_Sages",
                 "fr" : null,
                 "it" : null,
                 "sp" : null,
@@ -1090,7 +1090,7 @@
                 "de" : null,
                 "pg" : null
             },
-            "image" : "api/weapons/two_handed/Sword_of_the_six_Sages.png",
+            "image" : "api/weapons/two_handed/Sword_of_the_Six_Sages.png",
             "recipe" : null,
             "Location" : null,
             "category" : "two-handed"
