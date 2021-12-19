@@ -4883,6 +4883,143 @@
             "recipe" : null,
             "Location" : null,
             "category" : "key"
+        },
+        "Heart_Container" : {
+            "names" : {
+                "en" : "Heart_Container",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Heart_Container.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Stamina_Vessel" : {
+            "names" : {
+                "en" : "Stamina_Vessel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Stamina_Vessel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        }
+    },
+    "runes" : {
+        "Round_Bomb" : {
+            "names" : {
+                "en" : "Round_Bomb",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Round_Bomb.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Square_Bomb" : {
+            "names" : {
+                "en" : "Square_Bomb",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Square_Bomb.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Magnesis" : {
+            "names" : {
+                "en" : "Magnesis",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Magnesis.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Stasis" : {
+            "names" : {
+                "en" : "Stasis",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Stasis.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Cryonis" : {
+            "names" : {
+                "en" : "Cryonis",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Cryonis.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Camera" : {
+            "names" : {
+                "en" : "Camera",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Camera.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
+        },
+        "Master_Cycle_Zero" : {
+            "names" : {
+                "en" : "Master_Cycle_Zero",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/runes/Master_Cycle_Zero.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "rune"
         }
     }
 }

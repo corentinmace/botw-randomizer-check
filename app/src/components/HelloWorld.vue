@@ -9,6 +9,7 @@ export default {
     const shields = ref([])
     const armors = ref([])
     const keys = ref([])
+    const runes = ref([])
     const lang = ref('')
 
     const showWeapons = ref(false)
@@ -23,6 +24,7 @@ export default {
     const showLegs = ref(false)
     const showKeys = ref(false)
     const showSaddles = ref(false)
+    const showRunes = ref(false)
 
     onMounted(() => {
       axios.get('api/api.json')
@@ -33,6 +35,7 @@ export default {
         shields.value = res.data.shields
         armors.value = res.data.armors
         keys.value = res.data.key_items
+        runes.value = res.data.runes
         lang.value = 'en'
       })
       .catch(err => console.log(err))
@@ -63,10 +66,12 @@ export default {
           showKeys.value = !showKeys.value
         } else if (div == "saddles") {
           showSaddles.value = !showSaddles.value
+        } else if (div == "runes") {
+          showRunes.value = !showRunes.value
         }
     }
 
-    return { weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles}
+    return { weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles, runes, showRunes}
   }
 }
 
@@ -171,6 +176,17 @@ export default {
       <div class="flex flex-col items-center h-50 w-60" v-if="key.category == 'saddles'">
           <img class="border p-3 bg-gray-600 rounded w-20 h-20" :src="key.image">
           <p class="py-2" v-if="key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('runes')">> Runes</h1>
+<div v-if="showRunes">
+  <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showRunes">
+    <div class="flex justify-center items-center" v-for="(runes, name) in runes">
+      <div class="flex flex-col items-center h-50 w-60">
+          <img class="border p-3 bg-gray-600 rounded w-20 h-20" :src="runes.image">
+          <p class="py-2" v-if="runes.names[lang]">{{ runes.names[lang].replace(/_/g, ' ') }}</p>
       </div>
     </div>
   </div>
