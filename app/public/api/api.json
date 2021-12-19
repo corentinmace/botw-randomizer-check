@@ -1893,6 +1893,365 @@
         }
     },
     "bows" : {
-
+        "Bow_of_Light" : {
+            "names" : {
+                "en" : "Bow_of_Light",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Bow_of_Light.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Wooden_Bow" : {
+            "names" : {
+                "en" : "Wooden_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Wooden_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Traveler's_Bow" : {
+            "names" : {
+                "en" : "Traveler's_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Traveler's_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Soldier's_Bow" : {
+            "names" : {
+                "en" : "Soldier's_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Soldier's_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Knight's_Bow" : {
+            "names" : {
+                "en" : "Knight's_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Knight's_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Royal_Bow" : {
+            "names" : {
+                "en" : "Royal_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Royal_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Forest_Dweller's_Bow" : {
+            "names" : {
+                "en" : "Forest_Dweller's_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Forest_Dweller's_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Silver_Bow" : {
+            "names" : {
+                "en" : "Silver_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Silver_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Swallow_Bow" : {
+            "names" : {
+                "en" : "Swallow_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Swallow_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Falcon_Bow" : {
+            "names" : {
+                "en" : "Falcon_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Falcon_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Great_Eagle_Bow" : {
+            "names" : {
+                "en" : "Great_Eagle_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Great_Eagle_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Golden_Bow" : {
+            "names" : {
+                "en" : "Golden_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Golden_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Phrenic_Bow" : {
+            "names" : {
+                "en" : "Phrenic_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Phrenic_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Ancient_Bow" : {
+            "names" : {
+                "en" : "Ancient_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Ancient_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Twilight_Bow" : {
+            "names" : {
+                "en" : "Twilight_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Twilight_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Boko_Bow" : {
+            "names" : {
+                "en" : "Boko_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Boko_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Spiked_Boko_Bow" : {
+            "names" : {
+                "en" : "Spiked_Boko_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Spiked_Boko_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Lizal_Bow" : {
+            "names" : {
+                "en" : "Lizal_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Lizal_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Strengthened_Lizal_Bow" : {
+            "names" : {
+                "en" : "Strengthened_Lizal_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Strengthened_Lizal_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Steel_Lizal_Bow" : {
+            "names" : {
+                "en" : "Steel_Lizal_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Steel_Lizal_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Lynel_Bow" : {
+            "names" : {
+                "en" : "Lynel_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Lynel_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Mighty_Lynel_Bow" : {
+            "names" : {
+                "en" : "Mighty_Lynel_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Mighty_Lynel_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Savage_Lynel_Bow" : {
+            "names" : {
+                "en" : "Savage_Lynel_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Savage_Lynel_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        },
+        "Duplex_Bow" : {
+            "names" : {
+                "en" : "Duplex_Bow",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/bows/Duplex_Bow.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "spear"
+        }
     }
 }
