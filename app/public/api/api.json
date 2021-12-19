@@ -2720,5 +2720,1612 @@
             "Location" : null,
             "category" : "shield"
         }
+    },
+    "armors" : {
+        "Amber_Earring" : {
+            "names" : {
+                "en" : "Amber_Earring",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Amber_Earring.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Ancient_Helm" : {
+            "names" : {
+                "en" : "Ancient_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Ancient_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Barbarian_Helm" : {
+            "names" : {
+                "en" : "Barbarian_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Barbarian_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Bokoblin_Mask" : {
+            "names" : {
+                "en" : "Bokoblin_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Bokoblin_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_the_Hero" : {
+            "names" : {
+                "en" : "Cap_of_the_Hero",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_the_Hero.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_the_Sky" : {
+            "names" : {
+                "en" : "Cap_of_the_Sky",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_the_Sky.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_the_Wild" : {
+            "names" : {
+                "en" : "Cap_of_the_Wild",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_the_Wild.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_the_Wind" : {
+            "names" : {
+                "en" : "Cap_of_the_Wind",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_the_Wind.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_Time" : {
+            "names" : {
+                "en" : "Cap_of_Time",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_Time.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Cap_of_Twilight" : {
+            "names" : {
+                "en" : "Cap_of_Twilight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Cap_of_Twilight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Climber's_Bandana" : {
+            "names" : {
+                "en" : "Climber's_Bandana",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Climber's_Bandana.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Dark_Hood" : {
+            "names" : {
+                "en" : "Dark_Hood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Dark_Hood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Desert_Voe_Headband" : {
+            "names" : {
+                "en" : "Desert_Voe_Headband",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Desert_Voe_Headband.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Diamond_Circlet" : {
+            "names" : {
+                "en" : "Diamond_Circlet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Diamond_Circlet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Fierce_Deity_Mask" : {
+            "names" : {
+                "en" : "Fierce_Deity_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Fierce_Deity_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Flamebreaker_Helm" : {
+            "names" : {
+                "en" : "Flamebreaker_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Flamebreaker_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Gerudo_Veil" : {
+            "names" : {
+                "en" : "Gerudo_Veil",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Gerudo_Veil.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Hylian_Hood" : {
+            "names" : {
+                "en" : "Hylian_Hood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Hylian_Hood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Korok_Mask" : {
+            "names" : {
+                "en" : "Korok_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Korok_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Lizalfos_Mask" : {
+            "names" : {
+                "en" : "Lizalfos_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Lizalfos_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Lynel_Mask" : {
+            "names" : {
+                "en" : "Lynel_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Lynel_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Majora's_Mask" : {
+            "names" : {
+                "en" : "Majora's_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Majora's_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Midna's_Helmet" : {
+            "names" : {
+                "en" : "Midna's_Helmet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Midna's_Helmet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Moblin_Mask" : {
+            "names" : {
+                "en" : "Moblin_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Moblin_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Opal_Earrings" : {
+            "names" : {
+                "en" : "Opal_Earrings",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Opal_Earrings.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Phantom_Ganon_Skull" : {
+            "names" : {
+                "en" : "Phantom_Ganon_Skull",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Phantom_Ganon_Skull.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Phantom_Helmet" : {
+            "names" : {
+                "en" : "Phantom_Helmet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Phantom_Helmet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Radiant_Mask" : {
+            "names" : {
+                "en" : "Radiant_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Radiant_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Ravio's_Hood" : {
+            "names" : {
+                "en" : "Ravio's_Hood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Ravio's_Hood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Royal_Guard_Cap" : {
+            "names" : {
+                "en" : "Royal_Guard_Cap",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Royal_Guard_Cap.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Ruby_Circlet" : {
+            "names" : {
+                "en" : "Ruby_Circlet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Ruby_Circlet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Rubber_Helm" : {
+            "names" : {
+                "en" : "Rubber_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Rubber_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Salvager_Headwear" : {
+            "names" : {
+                "en" : "Salvager_Headwear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Salvager_Headwear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Sapphire_Circlet" : {
+            "names" : {
+                "en" : "Sapphire_Circlet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Sapphire_Circlet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Sheik's_Mask" : {
+            "names" : {
+                "en" : "Sheik's_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Sheik's_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Snowquill_Headdress" : {
+            "names" : {
+                "en" : "Snowquill_Headdress",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Snowquill_Headdress.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Soldier's_Helm" : {
+            "names" : {
+                "en" : "Soldier's_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Soldier's_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Stealth_Mask" : {
+            "names" : {
+                "en" : "Stealth_Mask",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Stealth_Mask.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Thunder_Helm" : {
+            "names" : {
+                "en" : "Thunder_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Thunder_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Tingle's_Hood" : {
+            "names" : {
+                "en" : "Tingle's_Hood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Tingle's_Hood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Topaz_Earrings" : {
+            "names" : {
+                "en" : "Topaz_Earrings",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Topaz_Earrings.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Vah_Medoh_Divine_Helm" : {
+            "names" : {
+                "en" : "Vah_Medoh_Divine_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Vah_Medoh_Divine_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Vah_Naboris_Divine_Helm" : {
+            "names" : {
+                "en" : "Vah_Naboris_Divine_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Vah_Naboris_Divine_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Vah_Rudania_Divine_Helm" : {
+            "names" : {
+                "en" : "Vah_Rudania_Divine_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Vah_Rudania_Divine_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Vah_Ruta_Divine_Helm" : {
+            "names" : {
+                "en" : "Vah_Ruta_Divine_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Vah_Ruta_Divine_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Zant's_Helmet" : {
+            "names" : {
+                "en" : "Zant's_Helmet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Zant's_Helmet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Zora_Helm" : {
+            "names" : {
+                "en" : "Zora_Helm",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/head/Zora_Helm.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "head"
+        },
+        "Ancient_Cuirass" : {
+            "names" : {
+                "en" : "Ancient_Cuirass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Ancient_Cuirass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Barbarian_Armor" : {
+            "names" : {
+                "en" : "Barbarian_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Barbarian_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Champion's_Tunic" : {
+            "names" : {
+                "en" : "Champion's_Tunic",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Champion's_Tunic.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Climbing_Gear" : {
+            "names" : {
+                "en" : "Climbing_Gear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Climbing_Gear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Dark_Tunic" : {
+            "names" : {
+                "en" : "Dark_Tunic",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Dark_Tunic.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Desert_Voe_Spaulder" : {
+            "names" : {
+                "en" : "Desert_Voe_Spaulder",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Desert_Voe_Spaulder.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Fierce_Deity_Armor" : {
+            "names" : {
+                "en" : "Fierce_Deity_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Fierce_Deity_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Flamebreaker_Armor" : {
+            "names" : {
+                "en" : "Flamebreaker_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Flamebreaker_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Gerudo_Top" : {
+            "names" : {
+                "en" : "Gerudo_Top",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Gerudo_Top.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Hylian_Tunic" : {
+            "names" : {
+                "en" : "Hylian_Tunic",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Hylian_Tunic.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Island_Lobster_Shirt" : {
+            "names" : {
+                "en" : "Island_Lobster_Shirt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Island_Lobster_Shirt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Nintendo_Switch_Shirt" : {
+            "names" : {
+                "en" : "Nintendo_Switch_Shirt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Nintendo_Switch_Shirt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Old_Shirt" : {
+            "names" : {
+                "en" : "Old_Shirt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Old_Shirt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Phantom_Armor" : {
+            "names" : {
+                "en" : "Phantom_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Barbarian_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Phantom_Ganon_Armor" : {
+            "names" : {
+                "en" : "Phantom_Ganon_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Phantom_Ganon_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Radiant_Shirt" : {
+            "names" : {
+                "en" : "Radiant_Shirt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Radiant_Shirt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Royal_Guard_Uniform" : {
+            "names" : {
+                "en" : "Royal_Guard_Uniform",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Royal_Guard_Uniform.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Rubber_Armor" : {
+            "names" : {
+                "en" : "Rubber_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Rubber_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Salvager_Vest" : {
+            "names" : {
+                "en" : "Salvager_Vest",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Salvager_Vest.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Snowquill_Tunic" : {
+            "names" : {
+                "en" : "Snowquill_Tunic",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Snowquill_Tunic.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Soldier's_Armor" : {
+            "names" : {
+                "en" : "Soldier's_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Soldier's_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Stealth_Chest_Guard" : {
+            "names" : {
+                "en" : "Stealth_Chest_Guard",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Stealth_Chest_Guard.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tingle's_Shirt" : {
+            "names" : {
+                "en" : "Tingle's_Shirt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tingle's_Shirt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_the_Hero" : {
+            "names" : {
+                "en" : "Tunic_of_the_Hero",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_the_Hero.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_Time" : {
+            "names" : {
+                "en" : "Tunic_of_Time",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_Time.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_Twilight" : {
+            "names" : {
+                "en" : "Tunic_of_Twilight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_Twilight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_the_Wild" : {
+            "names" : {
+                "en" : "Tunic_of_the_Wild",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_the_Wild.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_the_Wind" : {
+            "names" : {
+                "en" : "Tunic_of_the_Wind",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_the_Wind.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Tunic_of_the_Sky" : {
+            "names" : {
+                "en" : "Tunic_of_the_Sky",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Tunic_of_the_Sky.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Warm_Doublet" : {
+            "names" : {
+                "en" : "Warm_Doublet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Warm_Doublet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        },
+        "Zora_Armor" : {
+            "names" : {
+                "en" : "Zora_Armor",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/body/Zora_Armor.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "body"
+        }, 
+        "Ancient_Greaves" : {
+            "names" : {
+                "en" : "Ancient_Greaves",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Ancient_Greaves.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        }, 
+        "Barbarian_Leg_Wraps" : {
+            "names" : {
+                "en" : "Barbarian_Leg_Wraps",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Barbarian_Leg_Wraps.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Climbing_Boots" : {
+            "names" : {
+                "en" : "Climbing_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Climbing_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Dark_Trousers" : {
+            "names" : {
+                "en" : "Dark_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Dark_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Desert_Voe_Trousers" : {
+            "names" : {
+                "en" : "Desert_Voe_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Desert_Voe_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Fierce_Deity_Boots" : {
+            "names" : {
+                "en" : "Fierce_Deity_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Fierce_Deity_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Flamebreaker_Boots" : {
+            "names" : {
+                "en" : "Flamebreaker_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Flamebreaker_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Gerudo_Sirwal" : {
+            "names" : {
+                "en" : "Gerudo_Sirwal",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Gerudo_Sirwal.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Hylian_Trousers" : {
+            "names" : {
+                "en" : "Hylian_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Hylian_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Phantom_Ganon_Greaves" : {
+            "names" : {
+                "en" : "Phantom_Ganon_Greaves",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Phantom_Ganon_Greaves.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Phantom_Greaves" : {
+            "names" : {
+                "en" : "Phantom_Greaves",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Phantom_Greaves.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Radiant_Tights" : {
+            "names" : {
+                "en" : "Radiant_Tights",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Radiant_Tights.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Royal_Guard_Boots" : {
+            "names" : {
+                "en" : "Royal_Guard_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Royal_Guard_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Rubber_Tights" : {
+            "names" : {
+                "en" : "Rubber_Tights",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Rubber_Tights.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Salvager_Trousers" : {
+            "names" : {
+                "en" : "Salvager_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Salvager_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Sand_Boots" : {
+            "names" : {
+                "en" : "Sand_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Sand_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Snow_Boots" : {
+            "names" : {
+                "en" : "Snow_Boots",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Snow_Boots.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Snowquill_Trousers" : {
+            "names" : {
+                "en" : "Snowquill_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Snowquill_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Soldier's_Greaves" : {
+            "names" : {
+                "en" : "Soldier's_Greaves",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Soldier's_Greaves.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Stealth_Tights" : {
+            "names" : {
+                "en" : "Stealth_Tights",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Stealth_Tights.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Tingle's_Tights" : {
+            "names" : {
+                "en" : "Tingle's_Tights",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Tingle's_Tights.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_the_Hero" : {
+            "names" : {
+                "en" : "Trousers_of_the_Hero",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_the_Hero.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_Time" : {
+            "names" : {
+                "en" : "Trousers_of_Time",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_Time.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_Twilight" : {
+            "names" : {
+                "en" : "Trousers_of_Twilight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_Twilight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_the_Wild" : {
+            "names" : {
+                "en" : "Trousers_of_the_Wild",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_the_Wild.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_the_Wind" : {
+            "names" : {
+                "en" : "Trousers_of_the_Wind",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_the_Wind.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Trousers_of_the_Sky" : {
+            "names" : {
+                "en" : "Trousers_of_the_Sky",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Trousers_of_the_Sky.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Well-Worn_Trousers" : {
+            "names" : {
+                "en" : "Well-Worn_Trousers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Well-Worn_Trousers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        },
+        "Zora_Greaves" : {
+            "names" : {
+                "en" : "Zora_Greaves",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/armors/leg/Zora_Greaves.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "leg"
+        }
     }
 }
