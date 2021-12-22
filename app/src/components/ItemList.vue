@@ -12,7 +12,9 @@ export default {
     const runes = ref([])
     const materials = ref([])
     const enemies = ref([])
+    const foods = ref([])
     const objectives = ref([])
+  
     const lang = ref('')
     
     const showWeapons = ref(false)
@@ -30,8 +32,12 @@ export default {
     const showRunes = ref(false)
     const showMaterials = ref(false)
     const showEnemies = ref(false)
-    const showFood = ref(false)
+    const showMaterialFood = ref(false)
     const showCookedFood = ref(false)
+    const showFood = ref(false)
+    const showRoasted = ref(false)
+    const showFrozen = ref(false)
+    const showElixir = ref(false)
 
     onMounted(() => {
       axios.get('api/api.json')
@@ -45,6 +51,7 @@ export default {
         runes.value = res.data.runes
         materials.value = res.data.materials
         enemies.value = res.data.enemies
+        foods.value = res.data.food
         lang.value = 'en'
       })
       .catch(err => console.log(err))
@@ -81,10 +88,18 @@ export default {
           showMaterials.value = !showMaterials.value
         } else if (div == "enemies") {
           showEnemies.value = !showEnemies.value
+        } else if (div == 'material-food') {
+          showMaterialFood.value = !showMaterialFood.value
+        } else if (div == "cooked-food") {
+          showCookedFood.value = !showCookedFood.value
         } else if (div == 'food') {
           showFood.value = !showFood.value
-        } else if (div == "coed-food") {
-          showCookedFood.value = !showCookedFood.value
+        } else if (div == 'roasted') {
+          showRoasted.value = !showRoasted.value
+        } else if (div == 'frozen') {
+          showFrozen.value = !showFrozen.value
+        } else if (div == 'elixir') {
+          showElixir.value = !showElixir.value
         }
         
     }
@@ -107,7 +122,7 @@ export default {
     }
 
 
-    return { completeObjectives, addToObjectives, removeFromObjectives, weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles, runes, showRunes, objectives, materials, showMaterials, enemies, showEnemies, showFood, showCookedFood}
+    return { completeObjectives, addToObjectives, removeFromObjectives, weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles, runes, showRunes, objectives, materials, showMaterials, enemies, showEnemies, showMaterialFood, showCookedFood, showFood, foods, showRoasted, showFrozen, showElixir}
   }
 }
 
@@ -336,7 +351,6 @@ export default {
        </div>
      </div>
    </div>
-   <!-- Materials / Food here -->
    <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('materials')">> Materials</h1>
    <div v-if="showMaterials">
      <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5">
@@ -355,8 +369,8 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('food')">> Food</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showFood">
+     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('material-food')">> Food</h1>
+     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showMaterialFood">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
          <div class="flex flex-col items-center w-60" v-if="material.category == 'food'" @click="addToObjectives(material)">
              <div class="border p-3 bg-gray-600 rounded w-20 h-20">
@@ -372,25 +386,7 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('cooked-food')">> Cooked Food</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showCookedFood">
-       <div class="flex justify-center items-center" v-for="(material, name) in materials">
-         <div class="flex flex-col items-center w-60" v-if="material.category == 'cooked-food'" @click="addToObjectives(material)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
-                  <div class="w-full h-full" :style="{
-                    backgroundImage: 'url(' + material.image.replace('\'', '') +')',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'center'
-                    }">
-                  </div>
-               </div>
-             <p class="py-2" v-if="material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
-         </div>
-       </div>
-     </div>
    </div>
-
   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('enemies')">> Enemies</h1>
    <div v-if="showEnemies">
      <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showEnemies">
@@ -410,9 +406,80 @@ export default {
        </div>
      </div>
    </div>
+      <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('food')">> Food</h1>
+   <div v-if="showFood">
+     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('cooked-food')">> Cooked</h1>
+     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showCookedFood">
+       <div class="flex justify-center items-center" v-for="(food, name) in foods">
+         <div class="flex flex-col items-center w-60" v-if="food.category == 'cooked'" @click="addToObjectives(food)">
+             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+               <div class="w-full h-full" :style="{
+                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
+               </div>
+             </div>
+             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+         </div>
+       </div>
+     </div>
+    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('roasted')">> Roasted</h1>
+     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showRoasted">
+       <div class="flex justify-center items-center" v-for="(food, name) in foods">
+         <div class="flex flex-col items-center w-60" v-if="food.category == 'roasted'" @click="addToObjectives(food)">
+             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+               <div class="w-full h-full" :style="{
+                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
+               </div>
+             </div>
+             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+         </div>
+       </div>
+     </div>
+    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('frozen')">> Frozen</h1>
+     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showFrozen">
+       <div class="flex justify-center items-center" v-for="(food, name) in foods">
+         <div class="flex flex-col items-center w-60" v-if="food.category == 'frozen'" @click="addToObjectives(food)">
+             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+               <div class="w-full h-full" :style="{
+                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
+               </div>
+             </div>
+             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+         </div>
+       </div>
+     </div>
+    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('elixir')">> Elixir</h1>
+     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showElixir">
+       <div class="flex justify-center items-center" v-for="(food, name) in foods">
+         <div class="flex flex-col items-center w-60" v-if="food.category == 'elixir'" @click="addToObjectives(food)">
+             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+               <div class="w-full h-full" :style="{
+                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
+               </div>
+             </div>
+             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+         </div>
+       </div>
+     </div>
+   </div>
  </div>
 </div>
-<p class="text-xs bottom-0 right-6 fixed">v.Beta-0.1.5</p>
+<p class="text-xs bottom-0 right-6 fixed">v.Beta-0.2.0</p>
 <p class="text-xs bottom-4 left-2 fixed text-white">Click on the objective to complete it</p>
 <p class="text-xs bottom-0 left-2 fixed text-white">Double click to remove it</p>
 </template>

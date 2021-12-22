@@ -8385,5 +8385,2842 @@
             "Location" : null,
             "category" : "enemy"
         }
+    },
+    "food" : {
+        "Apple_Pie" : {
+            "names" : {
+                "en" : "Apple_Pie",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Apple_Pie.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Carrot_Cake" : {
+            "names" : {
+                "en" : "Carrot_Cake",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Carrot_Cake.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Carrot_Stew" : {
+            "names" : {
+                "en" : "Carrot_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Carrot_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Clam_Chowder" : {
+            "names" : {
+                "en" : "Clam_Chowder",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Clam_Chowder.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Copious_Fish_Skewers" : {
+            "names" : {
+                "en" : "Copious_Fish_Skewers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Copious_Fish_Skewers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Copious_Meat_Skewers" : {
+            "names" : {
+                "en" : "Copious_Meat_Skewers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Copious_Meat_Skewers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Copious_Fried_Wild_Greens" : {
+            "names" : {
+                "en" : "Copious_Fried_Wild_Greens",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Copious_Fried_Wild_Greens.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Copious_Mushroom_Skewers" : {
+            "names" : {
+                "en" : "Copious_Mushroom_Skewers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Copious_Mushroom_Skewers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Copious_Simmered_Fruit" : {
+            "names" : {
+                "en" : "Copious_Simmered_Fruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Copious_Simmered_Fruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Crab_Omelet_With_Rice" : {
+            "names" : {
+                "en" : "Crab_Omelet_With_Rice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Crab_Omelet_With_Rice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Crab_Risotto" : {
+            "names" : {
+                "en" : "Crab_Risotto",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Crab_Risotto.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Crab_Stir-Fry" : {
+            "names" : {
+                "en" : "Crab_Stir-Fry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Crab_Stir-Fry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Cream_Of_Mushroom_Soup" : {
+            "names" : {
+                "en" : "Cream_Of_Mushroom_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Cream_Of_Mushroom_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Cream_Of_Vegetable_Soup" : {
+            "names" : {
+                "en" : "Cream_Of_Vegetable_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Cream_Of_Vegetable_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Creamy_Heart_Soup" : {
+            "names" : {
+                "en" : "Creamy_Heart_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Creamy_Heart_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Creamy_Meat_Soup" : {
+            "names" : {
+                "en" : "Creamy_Meat_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Creamy_Meat_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Curry_Pilaf" : {
+            "names" : {
+                "en" : "Curry_Pilaf",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Curry_Pilaf.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Curry_Rice" : {
+            "names" : {
+                "en" : "Curry_Rice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Curry_Rice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Dubious_Food" : {
+            "names" : {
+                "en" : "Dubious_Food",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Dubious_Food.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Egg_Pudding" : {
+            "names" : {
+                "en" : "Egg_Pudding",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Egg_Pudding.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Egg_Tart" : {
+            "names" : {
+                "en" : "Egg_Tart",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Egg_Tart.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fish_And_Mushroom_Skewer" : {
+            "names" : {
+                "en" : "Fish_And_Mushroom_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fish_And_Mushroom_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fish_Pie" : {
+            "names" : {
+                "en" : "Fish_Pie",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fish_Pie.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fish_Skewer" : {
+            "names" : {
+                "en" : "Fish_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fish_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fragrant_Mushroom_Saute" : {
+            "names" : {
+                "en" : "Fragrant_Mushroom_Saute",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fragrant_Mushroom_Saute.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fried_Bananas" : {
+            "names" : {
+                "en" : "Fried_Bananas",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fried_Bananas.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fried_Egg_And_Rice" : {
+            "names" : {
+                "en" : "Fried_Egg_And_Rice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fried_Egg_And_Rice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fried_Wild_Greens" : {
+            "names" : {
+                "en" : "Fried_Wild_Greens",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fried_Wild_Greens.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fruit_And_Mushroom_Mix" : {
+            "names" : {
+                "en" : "Fruit_And_Mushroom_Mix",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fruit_And_Mushroom_Mix.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fruit_Pie" : {
+            "names" : {
+                "en" : "Fruit_Pie",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fruit_Pie.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Fruitcake" : {
+            "names" : {
+                "en" : "Fruitcake",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Fruitcake.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Glazed_Meat" : {
+            "names" : {
+                "en" : "Glazed_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Glazed_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Glazed_Mushrooms" : {
+            "names" : {
+                "en" : "Glazed_Mushrooms",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Glazed_Mushrooms.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Glazed_Seafood" : {
+            "names" : {
+                "en" : "Glazed_Seafood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Glazed_Seafood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Glazed_Veggies" : {
+            "names" : {
+                "en" : "Glazed_Veggies",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Glazed_Veggies.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Meat_And_Rice_Bowl" : {
+            "names" : {
+                "en" : "Gourmet_Meat_And_Rice_Bowl",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Meat_And_Rice_Bowl.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Meat_And_Seafood_Fry" : {
+            "names" : {
+                "en" : "Gourmet_Meat_And_Seafood_Fry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Meat_And_Seafood_Fry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Meat_Curry" : {
+            "names" : {
+                "en" : "Gourmet_Meat_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Meat_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Meat_Stew" : {
+            "names" : {
+                "en" : "Gourmet_Meat_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Meat_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Poultry_Curry" : {
+            "names" : {
+                "en" : "Gourmet_Poultry_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Poultry_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Poultry_Pilaf" : {
+            "names" : {
+                "en" : "Gourmet_Poultry_Pilaf",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Poultry_Pilaf.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Gourmet_Spiced_Meat_Skewer" : {
+            "names" : {
+                "en" : "Gourmet_Spiced_Meat_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Gourmet_Spiced_Meat_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Herb_Saute" : {
+            "names" : {
+                "en" : "Herb_Saute",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Herb_Saute.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Honey_Candy" : {
+            "names" : {
+                "en" : "Honey_Candy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Honey_Candy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Honey_Crepe" : {
+            "names" : {
+                "en" : "Honey_Crepe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Honey_Crepe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Honeyed_Apple" : {
+            "names" : {
+                "en" : "Honeyed_Apple",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Honeyed_Apple.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Honeyed_Fruits" : {
+            "names" : {
+                "en" : "Honeyed_Fruits",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Honeyed_Fruits.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Hot_Buttered_Apple" : {
+            "names" : {
+                "en" : "Hot_Buttered_Apple",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Hot_Buttered_Apple.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_And_Mushroom_Skewer" : {
+            "names" : {
+                "en" : "Meat_And_Mushroom_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_And_Mushroom_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_And_Rice_Bowl" : {
+            "names" : {
+                "en" : "Meat_And_Rice_Bowl",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_And_Rice_Bowl.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_And_Seafood_Fry" : {
+            "names" : {
+                "en" : "Meat_And_Seafood_Fry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_And_Seafood_Fry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_Curry" : {
+            "names" : {
+                "en" : "Meat_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_Pie" : {
+            "names" : {
+                "en" : "Meat_Pie",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_Pie.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_Skewer" : {
+            "names" : {
+                "en" : "Meat_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat_Stew" : {
+            "names" : {
+                "en" : "Meat_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meat-Stuffed_Pumpkins" : {
+            "names" : {
+                "en" : "Meat-Stuffed_Pumpkins",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meat-Stuffed_Pumpkins.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Meaty_Rice_Balls" : {
+            "names" : {
+                "en" : "Meaty_Rice_Balls",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Meaty_Rice_Balls.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Monster_Cake" : {
+            "names" : {
+                "en" : "Monster_Cake",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Monster_Cake.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Monster_Curry" : {
+            "names" : {
+                "en" : "Monster_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Monster_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Monster_Rice_Balls" : {
+            "names" : {
+                "en" : "Monster_Rice_Balls",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Monster_Rice_Balls.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Monster_Soup" : {
+            "names" : {
+                "en" : "Monster_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Monster_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Monster_Stew" : {
+            "names" : {
+                "en" : "Monster_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Monster_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Mushroom_Omelet" : {
+            "names" : {
+                "en" : "Mushroom_Omelet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Mushroom_Omelet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Mushroom_Rice_Balls" : {
+            "names" : {
+                "en" : "Mushroom_Rice_Balls",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Mushroom_Rice_Balls.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Mushroom_Risotto" : {
+            "names" : {
+                "en" : "Mushroom_Risotto",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Mushroom_Risotto.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Mushroom_Skewer" : {
+            "names" : {
+                "en" : "Mushroom_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Mushroom_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Nutcake" : {
+            "names" : {
+                "en" : "Nutcake",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Nutcake.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Omelet" : {
+            "names" : {
+                "en" : "Omelet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Omelet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Pepper_Steak" : {
+            "names" : {
+                "en" : "Pepper_Steak",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Pepper_Steak.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Plain_Crepe" : {
+            "names" : {
+                "en" : "Plain_Crepe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Plain_Crepe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Porgy_Meuniere" : {
+            "names" : {
+                "en" : "Porgy_Meuniere",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Porgy_Meuniere.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Poultry_Curry" : {
+            "names" : {
+                "en" : "Poultry_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Poultry_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Poultry_Pilaf" : {
+            "names" : {
+                "en" : "Poultry_Pilaf",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Poultry_Pilaf.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Meat_And_Rice_Bowl" : {
+            "names" : {
+                "en" : "Prime_Meat_And_Rice_Bowl",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Meat_And_Rice_Bowl.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Meat_And_Seafood_Fry" : {
+            "names" : {
+                "en" : "Prime_Meat_And_Seafood_Fry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Meat_And_Seafood_Fry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Meat_Curry" : {
+            "names" : {
+                "en" : "Prime_Meat_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Meat_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Meat_Stew" : {
+            "names" : {
+                "en" : "Prime_Meat_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Meat_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Poultry_Curry" : {
+            "names" : {
+                "en" : "Prime_Poultry_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Poultry_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Poultry_Pilaf" : {
+            "names" : {
+                "en" : "Prime_Poultry_Pilaf",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Poultry_Pilaf.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Prime_Spiced_Meat_Skewer" : {
+            "names" : {
+                "en" : "Prime_Spiced_Meat_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Prime_Spiced_Meat_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Pumpkin_Pie" : {
+            "names" : {
+                "en" : "Pumpkin_Pie",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Pumpkin_Pie.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Pumpkin_Stew" : {
+            "names" : {
+                "en" : "Pumpkin_Stew",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Pumpkin_Stew.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Rock-Hard_Food" : {
+            "names" : {
+                "en" : "Rock-Hard_Food",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Rock-Hard_Food.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salmon_Meuniere" : {
+            "names" : {
+                "en" : "Salmon_Meuniere",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salmon_Meuniere.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salmon_Risotto" : {
+            "names" : {
+                "en" : "Salmon_Risotto",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salmon_Risotto.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Crab" : {
+            "names" : {
+                "en" : "Salt-Grilled_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Fish" : {
+            "names" : {
+                "en" : "Salt-Grilled_Fish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Fish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Gourmet_Meat" : {
+            "names" : {
+                "en" : "Salt-Grilled_Gourmet_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Gourmet_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Greens" : {
+            "names" : {
+                "en" : "Salt-Grilled_Greens",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Greens.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Meat" : {
+            "names" : {
+                "en" : "Salt-Grilled_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Mushrooms" : {
+            "names" : {
+                "en" : "Salt-Grilled_Mushrooms",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Mushrooms.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Salt-Grilled_Prime_Meat" : {
+            "names" : {
+                "en" : "Salt-Grilled_Prime_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Salt-Grilled_Prime_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Sauteed_Nuts" : {
+            "names" : {
+                "en" : "Sauteed_Nuts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Sauteed_Nuts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Sauteed_Peppers" : {
+            "names" : {
+                "en" : "Sauteed_Peppers",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Sauteed_Peppers.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Curry" : {
+            "names" : {
+                "en" : "Seafood_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Fried_Rice" : {
+            "names" : {
+                "en" : "Seafood_Fried_Rice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Fried_Rice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Meuniere" : {
+            "names" : {
+                "en" : "Seafood_Meuniere",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Meuniere.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Paella" : {
+            "names" : {
+                "en" : "Seafood_Paella",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Paella.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Rice_Balls" : {
+            "names" : {
+                "en" : "Seafood_Rice_Balls",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Rice_Balls.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Seafood_Skewer" : {
+            "names" : {
+                "en" : "Seafood_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Seafood_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Simmered_Fruit" : {
+            "names" : {
+                "en" : "Simmered_Fruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Simmered_Fruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Spiced_Meat_Skewer" : {
+            "names" : {
+                "en" : "Spiced_Meat_Skewer",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Spiced_Meat_Skewer.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Spicy_Peppered_Seafood" : {
+            "names" : {
+                "en" : "Spicy_Peppered_Seafood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Spicy_Peppered_Seafood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Steamed_Fish" : {
+            "names" : {
+                "en" : "Steamed_Fish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Steamed_Fish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Steamed_Fruit" : {
+            "names" : {
+                "en" : "Steamed_Fruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Steamed_Fruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Steamed_Meat" : {
+            "names" : {
+                "en" : "Steamed_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Steamed_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Steamed_Mushrooms" : {
+            "names" : {
+                "en" : "Steamed_Mushrooms",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Steamed_Mushrooms.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Vegetable_Curry" : {
+            "names" : {
+                "en" : "Vegetable_Curry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Vegetable_Curry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Vegetable_Omelet" : {
+            "names" : {
+                "en" : "Vegetable_Omelet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Vegetable_Omelet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Vegetable_Risotto" : {
+            "names" : {
+                "en" : "Vegetable_Risotto",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Vegetable_Risotto.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Veggie_Cream_Soup" : {
+            "names" : {
+                "en" : "Veggie_Cream_Soup",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Veggie_Cream_Soup.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Veggie_Rice_Balls" : {
+            "names" : {
+                "en" : "Veggie_Rice_Balls",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Veggie_Rice_Balls.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Warm_Milk" : {
+            "names" : {
+                "en" : "Warm_Milk",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Warm_Milk.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Wheat_Bread" : {
+            "names" : {
+                "en" : "Wheat_Bread",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Wheat_Bread.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Wildberry_Crepe" : {
+            "names" : {
+                "en" : "Wildberry_Crepe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/cooked/Wildberry_Crepe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "cooked"
+        },
+        "Chilly_Elixir" : {
+            "names" : {
+                "en" : "Chilly_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Chilly_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Electro_Elixir" : {
+            "names" : {
+                "en" : "Electro_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Electro_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Enduring_Elixir" : {
+            "names" : {
+                "en" : "Enduring_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Enduring_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Energizing_Elixir" : {
+            "names" : {
+                "en" : "Energizing_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Energizing_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Fairy_Tonic" : {
+            "names" : {
+                "en" : "Fairy_Tonic",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Fairy_Tonic.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Fireproof_Elixir" : {
+            "names" : {
+                "en" : "Fireproof_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Fireproof_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Hasty_Elixir" : {
+            "names" : {
+                "en" : "Hasty_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Hasty_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Hearty_Elixir" : {
+            "names" : {
+                "en" : "Hearty_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Hearty_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Mighty_Elixir" : {
+            "names" : {
+                "en" : "Mighty_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Mighty_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Sneaky_Elixir" : {
+            "names" : {
+                "en" : "Sneaky_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Sneaky_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Spicy_Elixir" : {
+            "names" : {
+                "en" : "Spicy_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Spicy_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Tough_Elixir" : {
+            "names" : {
+                "en" : "Tough_Elixir",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/elixirs/Tough_Elixir.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "elixir"
+        },
+        "Frozen_Bass" : {
+            "names" : {
+                "en" : "Frozen_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Bird_Drumstick" : {
+            "names" : {
+                "en" : "Frozen_Bird_Drumstick",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Bird_Drumstick.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Bird_Thigh" : {
+            "names" : {
+                "en" : "Frozen_Bird_Thigh",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Bird_Thigh.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Carp" : {
+            "names" : {
+                "en" : "Frozen_Carp",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Carp.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Crab" : {
+            "names" : {
+                "en" : "Frozen_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Hearty_Bass" : {
+            "names" : {
+                "en" : "Frozen_Hearty_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Hearty_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Hearty_Salmon" : {
+            "names" : {
+                "en" : "Frozen_Hearty_Salmon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Hearty_Salmon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Porgy" : {
+            "names" : {
+                "en" : "Frozen_Porgy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Porgy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_River_Snail" : {
+            "names" : {
+                "en" : "Frozen_River_Snail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_River_Snail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Trout" : {
+            "names" : {
+                "en" : "Frozen_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Frozen_Whole_Bird" : {
+            "names" : {
+                "en" : "Frozen_Whole_Bird",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Frozen_Whole_Bird.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Icy_Gourmet_Meat" : {
+            "names" : {
+                "en" : "Icy_Gourmet_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Icy_Gourmet_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Icy_Hearty_Blueshell_Snail" : {
+            "names" : {
+                "en" : "Icy_Hearty_Blueshell_Snail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Icy_Hearty_Blueshell_Snail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Icy_Meat" : {
+            "names" : {
+                "en" : "Icy_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Icy_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Icy_Prime_Meat" : {
+            "names" : {
+                "en" : "Icy_Prime_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/frozen/Icy_Prime_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "frozen"
+        },
+        "Baked_Apple" : {
+            "names" : {
+                "en" : "Baked_Apple",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Baked_Apple.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Baked_Fortified_Pumpkin" : {
+            "names" : {
+                "en" : "Baked_Fortified_Pumpkin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Baked_Fortified_Pumpkin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Baked_Palm_Fruit" : {
+            "names" : {
+                "en" : "Baked_Palm_Fruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Baked_Palm_Fruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Blackened_Crab" : {
+            "names" : {
+                "en" : "Blackened_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Blackened_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Blueshell_Escargot" : {
+            "names" : {
+                "en" : "Blueshell_Escargot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Blueshell_Escargot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Campfire_Egg" : {
+            "names" : {
+                "en" : "Campfire_Egg",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Campfire_Egg.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Charred_Pepper" : {
+            "names" : {
+                "en" : "Charred_Pepper",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Charred_Pepper.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Hardboiled_Egg" : {
+            "names" : {
+                "en" : "Hardboiled_Egg",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Hardboiled_Egg.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Acorn" : {
+            "names" : {
+                "en" : "Roasted_Acorn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Acorn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Armoranth" : {
+            "names" : {
+                "en" : "Roasted_Armoranth",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Armoranth.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Bass" : {
+            "names" : {
+                "en" : "Roasted_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Big_Radish" : {
+            "names" : {
+                "en" : "Roasted_Big_Radish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Big_Radish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Bird_Drumstick" : {
+            "names" : {
+                "en" : "Roasted_Bird_Drumstick",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Bird_Drumstick.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Bird_Thigh" : {
+            "names" : {
+                "en" : "Roasted_Bird_Thigh",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Bird_Thigh.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Carp" : {
+            "names" : {
+                "en" : "Roasted_Carp",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Carp.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Endura_Carrot" : {
+            "names" : {
+                "en" : "Roasted_Endura_Carrot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Endura_Carrot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Hearty_Bass" : {
+            "names" : {
+                "en" : "Roasted_Hearty_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Hearty_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Hearty_Durian" : {
+            "names" : {
+                "en" : "Roasted_Hearty_Durian",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Hearty_Durian.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Hearty_Salmon" : {
+            "names" : {
+                "en" : "Roasted_Hearty_Salmon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Hearty_Salmon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Hydromelon" : {
+            "names" : {
+                "en" : "Roasted_Hydromelon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Hydromelon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Lotus_Seeds" : {
+            "names" : {
+                "en" : "Roasted_Lotus_Seeds",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Lotus_Seeds.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Mighty_Bananas" : {
+            "names" : {
+                "en" : "Roasted_Mighty_Bananas",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Mighty_Bananas.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Mighty_Thistle" : {
+            "names" : {
+                "en" : "Roasted_Mighty_Thistle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Mighty_Thistle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Porgy" : {
+            "names" : {
+                "en" : "Roasted_Porgy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Porgy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Radish" : {
+            "names" : {
+                "en" : "Roasted_Radish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Radish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Swift_Carrot" : {
+            "names" : {
+                "en" : "Roasted_Swift_Carrot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Swift_Carrot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Tree_Nut" : {
+            "names" : {
+                "en" : "Roasted_Tree_Nut",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Tree_Nut.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Voltfruit" : {
+            "names" : {
+                "en" : "Roasted_Voltfruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Voltfruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Whole_Bird" : {
+            "names" : {
+                "en" : "Roasted_Whole_Bird",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Whole_Bird.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Wildberry" : {
+            "names" : {
+                "en" : "Roasted_Wildberry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Wildberry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Roasted_Trout" : {
+            "names" : {
+                "en" : "Roasted_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Roasted_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Seared_Gourmet_Steak" : {
+            "names" : {
+                "en" : "Seared_Gourmet_Steak",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Seared_Gourmet_Steak.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Seared_Prime_Steak" : {
+            "names" : {
+                "en" : "Seared_Prime_Steak",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Seared_Prime_Steak.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Seared_Steak" : {
+            "names" : {
+                "en" : "Seared_Steak",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Seared_Steak.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Sneaky_River_Escargot" : {
+            "names" : {
+                "en" : "Sneaky_River_Escargot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Sneaky_River_Escargot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Big_Hearty_Truffle" : {
+            "names" : {
+                "en" : "Toasty_Big_Hearty_Truffle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Big_Hearty_Truffle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Chillshroom" : {
+            "names" : {
+                "en" : "Toasty_Chillshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Chillshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Endura_Shroom" : {
+            "names" : {
+                "en" : "Toasty_Endura_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Endura_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Hearty_Truffle" : {
+            "names" : {
+                "en" : "Toasty_Hearty_Truffle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Hearty_Truffle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Hylian_Shroom" : {
+            "names" : {
+                "en" : "Toasty_Hylian_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Hylian_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Ironshroom" : {
+            "names" : {
+                "en" : "Toasty_Ironshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Ironshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Razorshroom" : {
+            "names" : {
+                "en" : "Toasty_Razorshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Razorshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Rushroom" : {
+            "names" : {
+                "en" : "Toasty_Rushroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Rushroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Silent_Shroom" : {
+            "names" : {
+                "en" : "Toasty_Silent_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Silent_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Stamella_Shroom" : {
+            "names" : {
+                "en" : "Toasty_Stamella_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Stamella_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Sunshroom" : {
+            "names" : {
+                "en" : "Toasty_Sunshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Sunshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        },
+        "Toasty_Zapshroom" : {
+            "names" : {
+                "en" : "Toasty_Zapshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/food/roasted/Toasty_Zapshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "roasted"
+        }
     }
 }
