@@ -136,8 +136,8 @@ export default {
 </script>
 
 <template>
-<div class="flex">
-  <div class="min-h-screen max-h-screen overflow-auto lg:w-9/12 w-1/2 border-solid border-neutral-900 border-r">
+<div class="flex flex-col lg:flex-row">
+  <div class="lg:min-h-screen lg:max-h-screen min-h-[50vh] justify-center overflow-auto lg:w-9/12 w-full border-solid border-neutral-900 border-r">
     <div class="backdrop-blur text-left flex justify-between items-center text-m font-bold text-white px-5 py-2">
       <h1>Objectives</h1>
       <span @click="toggleShow('options')" class="icon-equalizer2 cursor-pointer"></span>
@@ -150,8 +150,8 @@ export default {
           </div>       
          <div class="flex flex-row flex-wrap w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
-                 <div class="flex flex-col items-center w-56 py-3" @dblclick="removeFromObjectives(id) ">
-                     <div class="border p-3 rounded w-20 h-20 bg-emerald-700 grayscale">
+                 <div class="flex flex-col items-center w-44 lg:w-56 py-3" @dblclick="removeFromObjectives(id) ">
+                     <div class="border p-3 rounded lg:w-20 lg:h-20 w-14 h-14 bg-emerald-700 grayscale">
                         <div class="w-full h-full" @click="completeObjectives($event)" :style="{
                         backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -165,7 +165,7 @@ export default {
              </div>
          </div>
       </div>
- <div class="lg:w-3/12 w-1/2 max-h-screen overflow-auto text-center">
+ <div class="lg:w-3/12 w-full max-h-screen overflow-auto text-center">
    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('weapons')">
       <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showWeapons }"></span>
      <h1>Weapons</h1>
