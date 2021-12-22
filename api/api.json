@@ -5021,5 +5021,3369 @@
             "Location" : null,
             "category" : "rune"
         }
+    },
+    "materials" : {
+        "Amber" : {
+            "names" : {
+                "en" : "Amber",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Amber.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ancient_Core" : {
+            "names" : {
+                "en" : "Ancient_Core",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ancient_Core.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ancient_Gear" : {
+            "names" : {
+                "en" : "Ancient_Gear",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ancient_Gear.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ancient_Screw" : {
+            "names" : {
+                "en" : "Ancient_Screw",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ancient_Screw.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ancient_Shaft" : {
+            "names" : {
+                "en" : "Ancient_Shaft",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ancient_Shaft.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ancient_Spring" : {
+            "names" : {
+                "en" : "Ancient_Spring",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ancient_Spring.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Blade_Rhino_Beetle" : {
+            "names" : {
+                "en" : "Blade_Rhino_Beetle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Blade_Rhino_Beetle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Blue_Nightshade" : {
+            "names" : {
+                "en" : "Blue_Nightshade",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Blue_Nightshade.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Bokoblin_Fang" : {
+            "names" : {
+                "en" : "Bokoblin_Fang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Bokoblin_Fang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Bokoblin_Guts" : {
+            "names" : {
+                "en" : "Bokoblin_Guts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Bokoblin_Guts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Bokoblin_Horn" : {
+            "names" : {
+                "en" : "Bokoblin_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Bokoblin_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Chuchu_Jelly" : {
+            "names" : {
+                "en" : "Chuchu_Jelly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Chuchu_Jelly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Cold_Darner" : {
+            "names" : {
+                "en" : "Cold_Darner",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Cold_Darner.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Diamond" : {
+            "names" : {
+                "en" : "Diamond",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Diamond.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Dinraal's_Claw" : {
+            "names" : {
+                "en" : "Dinraal's_Claw",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Dinraal's_Claw.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Dinraal's_Scale" : {
+            "names" : {
+                "en" : "Dinraal's_Scale",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Dinraal's_Scale.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Electric_Darner" : {
+            "names" : {
+                "en" : "Electric_Darner",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Electric_Darner.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Electric_Keese_Wing" : {
+            "names" : {
+                "en" : "Electric_Keese_Wing",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Electric_Keese_Wing.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Energetic_Rhino_Beetle" : {
+            "names" : {
+                "en" : "Energetic_Rhino_Beetle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Energetic_Rhino_Beetle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Fairy" : {
+            "names" : {
+                "en" : "Fairy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Fairy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Farosh's_Claw" : {
+            "names" : {
+                "en" : "Farosh's_Claw",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Farosh's_Claw.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Farosh's_Scale" : {
+            "names" : {
+                "en" : "Farosh's_Scale",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Farosh's_Scale.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Fire_Keese_Wing" : {
+            "names" : {
+                "en" : "Fire_Keese_Wing",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Fire_Keese_Wing.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Fireproof_Lizard" : {
+            "names" : {
+                "en" : "Fireproof_Lizard",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Fireproof_Lizard.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Flint" : {
+            "names" : {
+                "en" : "Flint",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Flint.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Giant_Ancient_Core" : {
+            "names" : {
+                "en" : "Giant_Ancient_Core",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Giant_Ancient_Core.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hearty_Lizard" : {
+            "names" : {
+                "en" : "Hearty_Lizard",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hearty_Lizard.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hightail_Lizard" : {
+            "names" : {
+                "en" : "Hightail_Lizard",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hightail_Lizard.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hinox_Guts" : {
+            "names" : {
+                "en" : "Hinox_Guts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hinox_Guts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hinox_Toenail" : {
+            "names" : {
+                "en" : "Hinox_Toenail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hinox_Toenail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hinox_Tooth" : {
+            "names" : {
+                "en" : "Hinox_Tooth",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hinox_Tooth.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Hot-Footed_Frog" : {
+            "names" : {
+                "en" : "Hot-Footed_Frog",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Hot-Footed_Frog.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ice_Keese_Wing" : {
+            "names" : {
+                "en" : "Ice_Keese_Wing",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ice_Keese_Wing.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Icy_Lizalfos_Tail" : {
+            "names" : {
+                "en" : "Icy_Lizalfos_Tail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Icy_Lizalfos_Tail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Keese_Eyeball" : {
+            "names" : {
+                "en" : "Keese_Eyeball",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Keese_Eyeball.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Keese_Wing" : {
+            "names" : {
+                "en" : "Keese_Wing",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Keese_Wing.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lizalfos_Horn" : {
+            "names" : {
+                "en" : "Lizalfos_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lizalfos_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lizalfos_Tail" : {
+            "names" : {
+                "en" : "Lizalfos_Tail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lizalfos_Tail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lizalfos_Talon" : {
+            "names" : {
+                "en" : "Lizalfos_Talon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lizalfos_Talon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Luminous_Stone" : {
+            "names" : {
+                "en" : "Luminous_Stone",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Luminous_Stone.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lynel_Guts" : {
+            "names" : {
+                "en" : "Lynel_Guts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lynel_Guts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lynel_Hoof" : {
+            "names" : {
+                "en" : "Lynel_Hoof",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lynel_Hoof.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Lynel_Horn" : {
+            "names" : {
+                "en" : "Lynel_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Lynel_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Moblin_Fang" : {
+            "names" : {
+                "en" : "Moblin_Fang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Moblin_Fang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Moblin_Guts" : {
+            "names" : {
+                "en" : "Moblin_Guts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Moblin_Guts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Moblin_Horn" : {
+            "names" : {
+                "en" : "Moblin_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Moblin_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Molduga_Fin" : {
+            "names" : {
+                "en" : "Molduga_Fin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Molduga_Fin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Molduga_Guts" : {
+            "names" : {
+                "en" : "Molduga_Guts",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Molduga_Guts.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Monster_Extract" : {
+            "names" : {
+                "en" : "Monster_Extract",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Monster_Extract.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Naydra's_Claw" : {
+            "names" : {
+                "en" : "Naydra's_Claw",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Naydra's_Claw.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Naydra's_Scale" : {
+            "names" : {
+                "en" : "Naydra's_Scale",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Naydra's_Scale.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Octo_Balloon" : {
+            "names" : {
+                "en" : "Octo_Balloon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Octo_Balloon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Octorok_Eyeball" : {
+            "names" : {
+                "en" : "Octorok_Eyeball",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Octorok_Eyeball.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Opal" : {
+            "names" : {
+                "en" : "Opal",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Opal.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Red_Chuchu_Jelly" : {
+            "names" : {
+                "en" : "Red_Chuchu_Jelly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Red_Chuchu_Jelly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Red_Lizalfos_Tail" : {
+            "names" : {
+                "en" : "Red_Lizalfos_Tail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Red_Lizalfos_Tail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Restless_Cricket" : {
+            "names" : {
+                "en" : "Restless_Cricket",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Restless_Cricket.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Rock_Salt" : {
+            "names" : {
+                "en" : "Rock_Salt",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Rock_Salt.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Ruby" : {
+            "names" : {
+                "en" : "Ruby",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Ruby.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Rugged_Rhino_Beetle" : {
+            "names" : {
+                "en" : "Rugged_Rhino_Beetle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Rugged_Rhino_Beetle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Sapphire" : {
+            "names" : {
+                "en" : "Sapphire",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Sapphire.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Dinraal's_Fang" : {
+            "names" : {
+                "en" : "Shard_of_Dinraal's_Fang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Dinraal's_Fang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Dinraal's_Horn" : {
+            "names" : {
+                "en" : "Shard_of_Dinraal's_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Dinraal's_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Farosh's_Fang" : {
+            "names" : {
+                "en" : "Shard_of_Farosh's_Fang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Farosh's_Fang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Farosh's_Horn" : {
+            "names" : {
+                "en" : "Shard_of_Farosh's_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Farosh's_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Naydra's_Fang" : {
+            "names" : {
+                "en" : "Shard_of_Naydra's_Fang",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Naydra's_Fang.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Shard_of_Naydra's_Horn" : {
+            "names" : {
+                "en" : "Shard_of_Naydra's_Horn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Shard_of_Naydra's_Horn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Smotherwing_Butterfly" : {
+            "names" : {
+                "en" : "Smotherwing_Butterfly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Smotherwing_Butterfly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Star_Fragment" : {
+            "names" : {
+                "en" : "Star_Fragment",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Star_Fragment.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Summerwing_Butterfly" : {
+            "names" : {
+                "en" : "Summerwing_Butterfly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Summerwing_Butterfly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Sunset_Firefly" : {
+            "names" : {
+                "en" : "Sunset_Firefly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Sunset_Firefly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Thunderwing_Butterfly" : {
+            "names" : {
+                "en" : "Thunderwing_Butterfly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Thunderwing_Butterfly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Tireless_Frog" : {
+            "names" : {
+                "en" : "Tireless_Frog",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Tireless_Frog.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Topaz" : {
+            "names" : {
+                "en" : "Topaz",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Topaz.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Warm_Darner" : {
+            "names" : {
+                "en" : "Warm_Darner",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Warm_Darner.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "White_Chuchu_Jelly" : {
+            "names" : {
+                "en" : "White_Chuchu_Jelly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/White_Chuchu_Jelly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Winterwing_Butterfly" : {
+            "names" : {
+                "en" : "Winterwing_Butterfly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Winterwing_Butterfly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Wood" : {
+            "names" : {
+                "en" : "Wood",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Wood.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Yellow_Chuchu_Jelly" : {
+            "names" : {
+                "en" : "Yellow_Chuchu_Jelly",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Yellow_Chuchu_Jelly.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Yellow_Lizalfos_Tail" : {
+            "names" : {
+                "en" : "Yellow_Lizalfos_Tail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/Yellow_Lizalfos_Tail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "material"
+        },
+        "Acorn" : {
+            "names" : {
+                "en" : "Acorn",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Acorn.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Apple" : {
+            "names" : {
+                "en" : "Apple",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Apple.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Armoranth" : {
+            "names" : {
+                "en" : "Armoranth",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Armoranth.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Armored_Carp" : {
+            "names" : {
+                "en" : "Armored_Carp",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Armored_Carp.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Armored_Porgy" : {
+            "names" : {
+                "en" : "Armored_Porgy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Armored_Porgy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Big_Hearty_Radish" : {
+            "names" : {
+                "en" : "Big_Hearty_Radish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Big_Hearty_Radish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Big_Hearty_Truffle" : {
+            "names" : {
+                "en" : "Big_Hearty_Truffle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Big_Hearty_Truffle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Bird_Egg" : {
+            "names" : {
+                "en" : "Bird_Egg",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Bird_Egg.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Bright-Eyed_Crab" : {
+            "names" : {
+                "en" : "Bright-Eyed_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Bright-Eyed_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Cane_Sugar" : {
+            "names" : {
+                "en" : "Cane_Sugar",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Cane_Sugar.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Chickaloo_Tree_Nut" : {
+            "names" : {
+                "en" : "Chickaloo_Tree_Nut",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Chickaloo_Tree_Nut.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Chillfin_Trout" : {
+            "names" : {
+                "en" : "Chillfin_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Chillfin_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Chillshroom" : {
+            "names" : {
+                "en" : "Chillshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Chillshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Cool_Safflina" : {
+            "names" : {
+                "en" : "Cool_Safflina",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Cool_Safflina.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Courser_Bee_Honey" : {
+            "names" : {
+                "en" : "Courser_Bee_Honey",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Courser_Bee_Honey.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Electric_Safflina" : {
+            "names" : {
+                "en" : "Electric_Safflina",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Electric_Safflina.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Endura_Carrot" : {
+            "names" : {
+                "en" : "Endura_Carrot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Endura_Carrot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Endura_Shroom" : {
+            "names" : {
+                "en" : "Endura_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Endura_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Fleet_Lotus_Seed" : {
+            "names" : {
+                "en" : "Fleet_Lotus_Seed",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Fleet_Lotus_Seed.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Fortified_Pumpkin" : {
+            "names" : {
+                "en" : "Fortified_Pumpkin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Fortified_Pumpkin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Fresh_Milk" : {
+            "names" : {
+                "en" : "Fresh_Milk",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Fresh_Milk.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Goat_Butter" : {
+            "names" : {
+                "en" : "Goat_Butter",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Goat_Butter.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Goron_Spice" : {
+            "names" : {
+                "en" : "Goron_Spice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Goron_Spice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Bass" : {
+            "names" : {
+                "en" : "Hearty_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Blueshell_Snail" : {
+            "names" : {
+                "en" : "Hearty_Blueshell_Snail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Blueshell_Snail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Durian" : {
+            "names" : {
+                "en" : "Hearty_Durian",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Durian.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Radish" : {
+            "names" : {
+                "en" : "Hearty_Radish",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Radish.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Salmon" : {
+            "names" : {
+                "en" : "Hearty_Salmon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Salmon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hearty_Truffle" : {
+            "names" : {
+                "en" : "Hearty_Truffle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hearty_Truffle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hydromelon" : {
+            "names" : {
+                "en" : "Hydromelon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hydromelon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hylian_Rice" : {
+            "names" : {
+                "en" : "Hylian_Rice",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hylian_Rice.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hylian_Shroom" : {
+            "names" : {
+                "en" : "Hylian_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hylian_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hyrule_Bass" : {
+            "names" : {
+                "en" : "Hyrule_Bass",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hyrule_Bass.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Hyrule_Herb" : {
+            "names" : {
+                "en" : "Hyrule_Herb",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Hyrule_Herb.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Ironshell_Crab" : {
+            "names" : {
+                "en" : "Ironshell_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Ironshell_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Ironshroom" : {
+            "names" : {
+                "en" : "Ironshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Ironshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Mighty_Bananas" : {
+            "names" : {
+                "en" : "Mighty_Bananas",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Mighty_Bananas.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Mighty_Carp" : {
+            "names" : {
+                "en" : "Mighty_Carp",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Mighty_Carp.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Mighty_Porgy" : {
+            "names" : {
+                "en" : "Mighty_Porgy",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Mighty_Porgy.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Mighty_Thistle" : {
+            "names" : {
+                "en" : "Mighty_Thistle",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Mighty_Thistle.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Palm_Fruit" : {
+            "names" : {
+                "en" : "Palm_Fruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Palm_Fruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Bird_Drumstick" : {
+            "names" : {
+                "en" : "Raw_Bird_Drumstick",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Bird_Drumstick.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Bird_Thigh" : {
+            "names" : {
+                "en" : "Raw_Bird_Thigh",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Bird_Thigh.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Gourmet_Meat" : {
+            "names" : {
+                "en" : "Raw_Gourmet_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Gourmet_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Meat" : {
+            "names" : {
+                "en" : "Raw_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Prime_Meat" : {
+            "names" : {
+                "en" : "Raw_Prime_Meat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Prime_Meat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Raw_Whole_Bird" : {
+            "names" : {
+                "en" : "Raw_Whole_Bird",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Raw_Whole_Bird.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Razorclaw_Crab" : {
+            "names" : {
+                "en" : "Razorclaw_Crab",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Razorclaw_Crab.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Razorshroom" : {
+            "names" : {
+                "en" : "Razorshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Razorshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Rushshroom" : {
+            "names" : {
+                "en" : "Rushshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Rushshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Sanke_Carp" : {
+            "names" : {
+                "en" : "Sanke_Carp",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Sanke_Carp.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Silent_Princess" : {
+            "names" : {
+                "en" : "Silent_Princess",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Silent_Princess.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Silent_Shroom" : {
+            "names" : {
+                "en" : "Silent_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Silent_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Sizzlefin_Trout" : {
+            "names" : {
+                "en" : "Sizzlefin_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Sizzlefin_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Sneaky_River_Snail" : {
+            "names" : {
+                "en" : "Sneaky_River_Snail",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Sneaky_River_Snail.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Spicy_Pepper" : {
+            "names" : {
+                "en" : "Spicy_Pepper",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Spicy_Pepper.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Stamella_Shroom" : {
+            "names" : {
+                "en" : "Stamella_Shroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Stamella_Shroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Stealthfin_Trout" : {
+            "names" : {
+                "en" : "Stealthfin_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Stealthfin_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Sunshroom" : {
+            "names" : {
+                "en" : "Sunshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Sunshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Swift_Carrot" : {
+            "names" : {
+                "en" : "Swift_Carrot",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Swift_Carrot.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Swift_Violet" : {
+            "names" : {
+                "en" : "Swift_Violet",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Swift_Violet.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Tabantha_Wheat" : {
+            "names" : {
+                "en" : "Tabantha_Wheat",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Tabantha_Wheat.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Voltfin_Trout" : {
+            "names" : {
+                "en" : "Voltfin_Trout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Voltfin_Trout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Voltfruit" : {
+            "names" : {
+                "en" : "Voltfruit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Voltfruit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Warm_Safflina" : {
+            "names" : {
+                "en" : "Warm_Safflina",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Warm_Safflina.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Wildberry" : {
+            "names" : {
+                "en" : "Wildberry",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Wildberry.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        },
+        "Zapshroom" : {
+            "names" : {
+                "en" : "Zapshroom",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/material/food/Zapshroom.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "food"
+        }
+    },
+    "enemies" : {
+        "Black_Bokoblin" : {
+            "names" : {
+                "en" : "Black_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Black_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Black_Hinox" : {
+            "names" : {
+                "en" : "Black_Hinox",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Black_Hinox.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Black_Lizalfos" : {
+            "names" : {
+                "en" : "Black_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Black_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Black_Moblin" : {
+            "names" : {
+                "en" : "Black_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Black_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blizzrobe" : {
+            "names" : {
+                "en" : "Blizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blue_Bokoblin" : {
+            "names" : {
+                "en" : "Blue_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blue_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blue_Hinox" : {
+            "names" : {
+                "en" : "Blue_Hinox",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blue_Hinox.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blue_Lizalfos" : {
+            "names" : {
+                "en" : "Blue_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blue_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blue_Moblin" : {
+            "names" : {
+                "en" : "Blue_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blue_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Blue-Maned_Lynel" : {
+            "names" : {
+                "en" : "Blue-Maned_Lynel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Blue-Maned_Lynel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Calamity_Ganon" : {
+            "names" : {
+                "en" : "Calamity_Ganon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Calamity_Ganon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Chuchu" : {
+            "names" : {
+                "en" : "Chuchu",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Chuchu.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Cursed_Bokoblin" : {
+            "names" : {
+                "en" : "Cursed_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Cursed_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Cursed_Lizalfos" : {
+            "names" : {
+                "en" : "Cursed_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Cursed_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Cursed_Moblin" : {
+            "names" : {
+                "en" : "Cursed_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Cursed_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Dark_Beast_Ganon" : {
+            "names" : {
+                "en" : "Dark_Beast_Ganon",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Dark_Beast_Ganon.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Decayed_Guardian" : {
+            "names" : {
+                "en" : "Decayed_Guardian",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Decayed_Guardian.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Electric_Chuchu" : {
+            "names" : {
+                "en" : "Electric_Chuchu",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Electric_Chuchu.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Electric_Lizalfos" : {
+            "names" : {
+                "en" : "Electric_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Electric_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Electric_Wizzrobe" : {
+            "names" : {
+                "en" : "Electric_Wizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Electric_Wizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Electric_Keese" : {
+            "names" : {
+                "en" : "Electric_Keese",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Electric_Keese.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Fire_Chuchu" : {
+            "names" : {
+                "en" : "Fire_Chuchu",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Fire_Chuchu.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Fire_Keese" : {
+            "names" : {
+                "en" : "Fire_Keese",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Fire_Keese.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Fire_Wizzrobe" : {
+            "names" : {
+                "en" : "Fire_Wizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Fire_Wizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Fire-Breath_Lizalfos" : {
+            "names" : {
+                "en" : "Fire-Breath_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Fire-Breath_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Fireblight" : {
+            "names" : {
+                "en" : "Fireblight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Fireblight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Forest_Octorok" : {
+            "names" : {
+                "en" : "Forest_Octorok",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Forest_Octorok.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Frost_Pebblit" : {
+            "names" : {
+                "en" : "Frost_Pebblit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Frost_Pebblit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Frost_Talus" : {
+            "names" : {
+                "en" : "Frost_Talus",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Frost_Talus.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Golden_Bokoblin" : {
+            "names" : {
+                "en" : "Golden_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Golden_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Golden_Lizalfos" : {
+            "names" : {
+                "en" : "Golden_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Golden_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Golden_Lynel" : {
+            "names" : {
+                "en" : "Golden_Lynel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Golden_Lynel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Golden_Moblin" : {
+            "names" : {
+                "en" : "Golden_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Golden_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Scout" : {
+            "names" : {
+                "en" : "Guardian_Scout",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Scout.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Scout_II" : {
+            "names" : {
+                "en" : "Guardian_Scout_II",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Scout_II.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Scout_III" : {
+            "names" : {
+                "en" : "Guardian_Scout_III",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Scout_III.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Scout_IV" : {
+            "names" : {
+                "en" : "Guardian_Scout_IV",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Scout_IV.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Skywatcher" : {
+            "names" : {
+                "en" : "Guardian_Skywatcher",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Skywatcher.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Stalker" : {
+            "names" : {
+                "en" : "Guardian_Stalker",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Stalker.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Guardian_Turret" : {
+            "names" : {
+                "en" : "Guardian_Turret",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Guardian_Turret.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Ice_Chuchu" : {
+            "names" : {
+                "en" : "Ice_Chuchu",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Ice_Chuchu.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Ice_Keese" : {
+            "names" : {
+                "en" : "Ice_Keese",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Ice_Keese.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Ice_Wizzrobe" : {
+            "names" : {
+                "en" : "Ice_Wizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Ice_Wizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Ice-Breath_Lizalfos" : {
+            "names" : {
+                "en" : "Ice-Breath_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Ice-Breath_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Igneo_Pebblit" : {
+            "names" : {
+                "en" : "Igneo_Pebblit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Igneo_Pebblit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Igneo_Talus" : {
+            "names" : {
+                "en" : "Igneo_Talus",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Igneo_Talus.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Keese" : {
+            "names" : {
+                "en" : "Keese",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Keese.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Lizalfos" : {
+            "names" : {
+                "en" : "Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Master_Kohga" : {
+            "names" : {
+                "en" : "Master_Kohga",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Master_Kohga.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Maz_Koshia" : {
+            "names" : {
+                "en" : "Maz_Koshia",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Maz_Koshia.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Meteo_Wizzrobe" : {
+            "names" : {
+                "en" : "Meteo_Wizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Meteo_Wizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Molduga" : {
+            "names" : {
+                "en" : "Molduga",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Molduga.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Red_Bokoblin" : {
+            "names" : {
+                "en" : "Red_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Red_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Red_Hinox" : {
+            "names" : {
+                "en" : "Red_Hinox",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Red_Hinox.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Red_Lynel" : {
+            "names" : {
+                "en" : "Red_Lynel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Red_Lynel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Red_Moblin" : {
+            "names" : {
+                "en" : "Red_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Red_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Rock_Octorok" : {
+            "names" : {
+                "en" : "Rock_Octorok",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Rock_Octorok.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Silver_Bokoblin" : {
+            "names" : {
+                "en" : "Silver_Bokoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Silver_Bokoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Silver_Lizalfos" : {
+            "names" : {
+                "en" : "Silver_Lizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Silver_Lizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Silver_Lynel" : {
+            "names" : {
+                "en" : "Silver_Lynel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Silver_Lynel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Silver_Moblin" : {
+            "names" : {
+                "en" : "Silver_Moblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Silver_Moblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Sky_Octorok" : {
+            "names" : {
+                "en" : "Sky_Octorok",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Sky_Octorok.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Snow_Octorok" : {
+            "names" : {
+                "en" : "Snow_Octorok",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Snow_Octorok.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stalizalfos" : {
+            "names" : {
+                "en" : "Stalizalfos",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stalizalfos.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stalkoblin" : {
+            "names" : {
+                "en" : "Stalkoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stalkoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stalmoblin" : {
+            "names" : {
+                "en" : "Stalmoblin",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stalmoblin.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stalnox" : {
+            "names" : {
+                "en" : "Stalnox",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stalnox.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stone_Pebblit" : {
+            "names" : {
+                "en" : "Stone_Pebblit",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stone_Pebblit.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Stone_Talus" : {
+            "names" : {
+                "en" : "Stone_Talus",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Stone_Talus.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Thunder_Wizzrobe" : {
+            "names" : {
+                "en" : "Thunder_Wizzrobe",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Thunder_Wizzrobe.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Thunderblight" : {
+            "names" : {
+                "en" : "Thunderblight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Thunderblight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Treasure_Octorok" : {
+            "names" : {
+                "en" : "Treasure_Octorok",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Treasure_Octorok.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Waterblight" : {
+            "names" : {
+                "en" : "Waterblight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Waterblight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "White-Maned_Lynel" : {
+            "names" : {
+                "en" : "White-Maned_Lynel",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/White-Maned_Lynel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Windblight" : {
+            "names" : {
+                "en" : "Windblight",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Windblight.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Yiga_Blademaster" : {
+            "names" : {
+                "en" : "Yiga_Blademaster",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Yiga_Blademaster.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        },
+        "Yiga_Footsoldier" : {
+            "names" : {
+                "en" : "Yiga_Footsoldier",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/enemies/Yiga_Footsoldier.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "enemy"
+        }
     }
 }
