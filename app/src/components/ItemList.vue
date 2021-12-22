@@ -99,10 +99,10 @@ export default {
 
     const completeObjectives = (e) => {
       console.log(e)
-      if(e.srcElement.classList.contains('grayscale')) {
-        e.srcElement.classList.remove('grayscale')
+      if(e.srcElement.parentElement.classList.contains('grayscale')) {
+        e.srcElement.parentElement.classList.remove('grayscale')
       } else {
-        e.srcElement.classList.add('grayscale')
+        e.srcElement.parentElement.classList.add('grayscale')
       }
     }
 
@@ -120,7 +120,7 @@ export default {
          <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
                  <div class="flex flex-col items-center w-56" @dblclick="removeFromObjectives(id) ">
-                     <div class="border p-3 rounded w-20 h-20 grayscale">
+                     <div class="border p-3 rounded w-20 h-20 bg-emerald-700 grayscale">
                         <div class="w-full h-full" @click="completeObjectives($event)" :style="{
                             backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
                             backgroundRepeat: 'no-repeat',
