@@ -150,7 +150,7 @@ export default {
           </div>       
          <div class="flex flex-row flex-wrap w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
-                 <div class="flex flex-col items-center w-56" @dblclick="removeFromObjectives(id) ">
+                 <div class="flex flex-col items-center w-56 py-3" @dblclick="removeFromObjectives(id) ">
                      <div class="border p-3 rounded w-20 h-20 bg-emerald-700 grayscale">
                         <div class="w-full h-full" @click="completeObjectives($event)" :style="{
                         backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
