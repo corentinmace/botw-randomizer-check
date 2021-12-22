@@ -130,18 +130,18 @@ export default {
 
 <template>
 <div class="flex">
-  <div class="min-h-screen max-h-screen overflow-auto w-1/2 border-solid border-gray-600 bg-gray-800 border-r">
-         <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2" @click="toggleShow('weapons')">Objectives</h1>
-         <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5">
+  <div class="min-h-screen max-h-screen overflow-auto w-1/2 border-solid border-neutral-900 border-r">
+         <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2">Objectives</h1>
+         <div class="flex flex-row flex-wrap w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
                  <div class="flex flex-col items-center w-56" @dblclick="removeFromObjectives(id) ">
                      <div class="border p-3 rounded w-20 h-20 bg-emerald-700 grayscale">
                         <div class="w-full h-full" @click="completeObjectives($event)" :style="{
-                            backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'contain',
-                            backgroundPosition: 'center'
-                          }">
+                        backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
                         </div>
                      </div>
                      <p class="py-2" v-if="objective.names[lang]">{{ objective.names[lang].replace(/_/g, ' ') }}</p>
@@ -150,13 +150,13 @@ export default {
          </div>
      </div>
  <div class="w-1/2 max-h-screen overflow-auto">
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('weapons')">> Weapons</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('weapons')">> Weapons</h1>
    <div v-if="showWeapons">
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('one-handed')">> One handed</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showOneHanded">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('one-handed')">> One handed</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showOneHanded">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
          <div class="flex flex-col items-center w-60" v-if="weapon.category == 'one-handed'" @click="addToObjectives(weapon)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -169,11 +169,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('two-handed')">> Two handed</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showTwoHanded">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('two-handed')">> Two handed</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showTwoHanded">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
          <div class="flex flex-col items-center w-60" v-if="weapon.category == 'two-handed'" @click="addToObjectives(weapon)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                 <div class="w-full h-full" :style="{
                   backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                   backgroundRepeat: 'no-repeat',
@@ -186,11 +186,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('spear')">> Spear</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showSpear">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('spear')">> Spear</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showSpear">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
          <div class="flex flex-col items-center w-60" v-if="weapon.category == 'spear'" @click="addToObjectives(weapon)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -204,12 +204,12 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('bows')">> Bows</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('bows')">> Bows</h1>
    <div v-if="showBows">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showBows">
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showBows">
        <div class="flex justify-center items-center" v-for="(bow, name) in bows">
          <div class="flex flex-col items-center w-60" @click="addToObjectives(bow)">
-                <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+                <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + bow.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -223,12 +223,12 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('shields')">> Shields</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('shields')">> Shields</h1>
    <div v-if="showShields">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showShields">
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showShields">
        <div class="flex justify-center items-center" v-for="(shield, name) in shields">
          <div class="flex flex-col items-center w-60" @click="addToObjectives(shield)">
-                <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+                <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + shield.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -242,13 +242,13 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('armors')">> Armors</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('armors')">> Armors</h1>
    <div v-if="showArmors">
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('heads')">> Head</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showHeads">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('heads')">> Head</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showHeads">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
          <div class="flex flex-col items-center w-60" v-if="armor.category == 'head'" @click="addToObjectives(armor)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -261,11 +261,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('bodies')">> Body</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showBodies">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('bodies')">> Body</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showBodies">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
          <div class="flex flex-col items-center w-60" v-if="armor.category == 'body'" @click="addToObjectives(armor)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -278,11 +278,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('legs')">> Legs</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showLegs">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('legs')">> Legs</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showLegs">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
          <div class="flex flex-col items-center w-60" v-if="armor.category == 'leg'" @click="addToObjectives(armor)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -296,12 +296,12 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('key-items')">> Key Items</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('key-items')">> Key Items</h1>
    <div v-if="showKeys">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5">
+     <div class="flex flex-row flex-wrap w-full text-white py-5">
        <div class="flex justify-center items-center" v-for="(key, name) in keys">
          <div class="flex flex-col items-center w-60" v-if="key.category == 'key'" @click="addToObjectives(key)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + key.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -314,11 +314,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('saddles')">> Saddles</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showSaddles">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('saddles')">> Saddles</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showSaddles">
        <div class="flex justify-center items-center" v-for="(key, name) in keys">
          <div class="flex flex-col items-center w-60" v-if="key.category == 'saddles'" @click="addToObjectives(key)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + key.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -332,12 +332,12 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('runes')">> Runes</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('runes')">> Runes</h1>
    <div v-if="showRunes">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showRunes">
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showRunes">
        <div class="flex justify-center items-center" v-for="(rune, name) in runes">
          <div class="flex flex-col items-center w-60" @click="addToObjectives(rune)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + rune.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -351,12 +351,12 @@ export default {
        </div>
      </div>
    </div>
-   <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('materials')">> Materials</h1>
+   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('materials')">> Materials</h1>
    <div v-if="showMaterials">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5">
+     <div class="flex flex-row flex-wrap w-full text-white py-5">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
          <div class="flex flex-col items-center w-60" v-if="material.category == 'material'" @click="addToObjectives(material)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + material.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -369,11 +369,11 @@ export default {
          </div>
        </div>
      </div>
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('material-food')">> Food</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showMaterialFood">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('material-food')">> Food</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showMaterialFood">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
          <div class="flex flex-col items-center w-60" v-if="material.category == 'food'" @click="addToObjectives(material)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + material.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -387,12 +387,12 @@ export default {
        </div>
      </div>
    </div>
-  <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('enemies')">> Enemies</h1>
+  <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('enemies')">> Enemies</h1>
    <div v-if="showEnemies">
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showEnemies">
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showEnemies">
        <div class="flex justify-center items-center" v-for="(enemy, name) in enemies">
          <div class="flex flex-col items-center w-60" @click="addToObjectives(enemy)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + enemy.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -406,13 +406,13 @@ export default {
        </div>
      </div>
    </div>
-      <h1 class="bg-gray-600 text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-gray-800" @click="toggleShow('food')">> Food</h1>
+      <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('food')">> Food</h1>
    <div v-if="showFood">
-     <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('cooked-food')">> Cooked</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showCookedFood">
+     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('cooked-food')">> Cooked</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showCookedFood">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
          <div class="flex flex-col items-center w-60" v-if="food.category == 'cooked'" @click="addToObjectives(food)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -425,11 +425,11 @@ export default {
          </div>
        </div>
      </div>
-    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('roasted')">> Roasted</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showRoasted">
+    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('roasted')">> Roasted</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showRoasted">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
          <div class="flex flex-col items-center w-60" v-if="food.category == 'roasted'" @click="addToObjectives(food)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -442,11 +442,11 @@ export default {
          </div>
        </div>
      </div>
-    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('frozen')">> Frozen</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showFrozen">
+    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('frozen')">> Frozen</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showFrozen">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
          <div class="flex flex-col items-center w-60" v-if="food.category == 'frozen'" @click="addToObjectives(food)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -459,11 +459,11 @@ export default {
          </div>
        </div>
      </div>
-    <h1 class="bg-gray-800 text-left text-m font-bold text-white px-10 py-2 border-solid border-b border-gray-600" @click="toggleShow('elixir')">> Elixir</h1>
-     <div class="flex flex-row flex-wrap bg-gray-800 w-full text-white py-5" v-if="showElixir">
+    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('elixir')">> Elixir</h1>
+     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showElixir">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
          <div class="flex flex-col items-center w-60" v-if="food.category == 'elixir'" @click="addToObjectives(food)">
-             <div class="border p-3 bg-gray-600 rounded w-20 h-20">
+             <div class="border p-3 backdrop-blur rounded w-20 h-20">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
