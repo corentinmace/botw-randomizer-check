@@ -39,6 +39,9 @@ export default {
     const showFrozen = ref(false)
     const showElixir = ref(false)
 
+    const showOptions = ref(false)
+    const showNames = ref(true)
+
     onMounted(() => {
       axios.get('api/api.json')
       .then(res => {
@@ -100,6 +103,10 @@ export default {
           showFrozen.value = !showFrozen.value
         } else if (div == 'elixir') {
           showElixir.value = !showElixir.value
+        } else if (div == 'options') {
+          showOptions.value = !showOptions.value
+        } else if (div == 'names') {
+          showNames.value = !showNames.value
         }
         
     }
@@ -122,7 +129,7 @@ export default {
     }
 
 
-    return { completeObjectives, addToObjectives, removeFromObjectives, weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles, runes, showRunes, objectives, materials, showMaterials, enemies, showEnemies, showMaterialFood, showCookedFood, showFood, foods, showRoasted, showFrozen, showElixir}
+    return { completeObjectives, showNames, showOptions, addToObjectives, removeFromObjectives, weapons, lang, showWeapons, showOneHanded, showTwoHanded, showSpear, toggleShow, bows, showBows, shields, showShields, armors, showArmors, showHeads, showBodies, showLegs, keys, showKeys, showSaddles, runes, showRunes, objectives, materials, showMaterials, enemies, showEnemies, showMaterialFood, showCookedFood, showFood, foods, showRoasted, showFrozen, showElixir}
   }
 }
 
@@ -130,8 +137,17 @@ export default {
 
 <template>
 <div class="flex">
-  <div class="min-h-screen max-h-screen overflow-auto w-1/2 border-solid border-neutral-900 border-r">
-         <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2">Objectives</h1>
+  <div class="min-h-screen max-h-screen overflow-auto lg:w-9/12 w-1/2 border-solid border-neutral-900 border-r">
+    <div class="backdrop-blur text-left flex justify-between items-center text-m font-bold text-white px-5 py-2">
+      <h1>Objectives</h1>
+      <span @click="toggleShow('options')" class="icon-equalizer2 cursor-pointer"></span>
+    </div>
+        <div class="flex flex-row flex-wrap w-full text-white p-5 backdrop-blur-md"  v-if="showOptions">
+            <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('names')">
+                <span class="icon-eye px-5" :class="{ 'icon-eye-blocked' : !showNames }"></span>
+                <h1>Names</h1>
+            </div>
+          </div>       
          <div class="flex flex-row flex-wrap w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
                  <div class="flex flex-col items-center w-56" @dblclick="removeFromObjectives(id) ">
@@ -144,19 +160,25 @@ export default {
                        }">
                         </div>
                      </div>
-                     <p class="py-2" v-if="objective.names[lang]">{{ objective.names[lang].replace(/_/g, ' ') }}</p>
+                     <p class="py-2" v-if="showNames && objective.names[lang]">{{ objective.names[lang].replace(/_/g, ' ') }}</p>
                  </div>
              </div>
          </div>
-     </div>
- <div class="w-1/2 max-h-screen overflow-auto">
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('weapons')">> Weapons</h1>
+      </div>
+ <div class="lg:w-3/12 w-1/2 max-h-screen overflow-auto text-center">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('weapons')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showWeapons }"></span>
+     <h1>Weapons</h1>
+   </div>
    <div v-if="showWeapons">
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('one-handed')">> One handed</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showOneHanded">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('one-handed')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showOneHanded }"></span>
+     <h1>One Handed</h1>
+   </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showOneHanded">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
-         <div class="flex flex-col items-center w-60" v-if="weapon.category == 'one-handed'" @click="addToObjectives(weapon)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="weapon.category == 'one-handed'" @click="addToObjectives(weapon)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -165,15 +187,18 @@ export default {
                        }">
                </div>
              </div>
-             <p class="py-2" v-if="weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('two-handed')">> Two handed</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showTwoHanded">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('two-handed')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showTwoHanded }"></span>
+     <h1>Two Handed</h1>
+   </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showTwoHanded">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
-         <div class="flex flex-col items-center w-60" v-if="weapon.category == 'two-handed'" @click="addToObjectives(weapon)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="weapon.category == 'two-handed'" @click="addToObjectives(weapon)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                 <div class="w-full h-full" :style="{
                   backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                   backgroundRepeat: 'no-repeat',
@@ -182,15 +207,18 @@ export default {
                   }">
                </div>
              </div>
-             <p class="py-2" v-if="weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('spear')">> Spear</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showSpear">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('spear')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showSpear }"></span>
+     <h1>Spear</h1>
+   </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showSpear">
        <div class="flex justify-center items-center" v-for="(weapon, name) in weapons">
-         <div class="flex flex-col items-center w-60" v-if="weapon.category == 'spear'" @click="addToObjectives(weapon)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="weapon.category == 'spear'" @click="addToObjectives(weapon)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + weapon.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -199,17 +227,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && weapon.names[lang]">{{ weapon.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('bows')">> Bows</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('bows')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showBows }"></span>
+     <h1>Bows</h1>
+   </div>
    <div v-if="showBows">
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showBows">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showBows">
        <div class="flex justify-center items-center" v-for="(bow, name) in bows">
-         <div class="flex flex-col items-center w-60" @click="addToObjectives(bow)">
-                <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" @click="addToObjectives(bow)">
+                <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + bow.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -218,17 +249,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="bow.names[lang]">{{ bow.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && bow.names[lang]">{{ bow.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('shields')">> Shields</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('shields')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showShields }"></span>
+     <h1>Shields</h1>
+   </div>
    <div v-if="showShields">
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showShields">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showShields">
        <div class="flex justify-center items-center" v-for="(shield, name) in shields">
-         <div class="flex flex-col items-center w-60" @click="addToObjectives(shield)">
-                <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" @click="addToObjectives(shield)">
+                <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + shield.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -237,18 +271,24 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="shield.names[lang]">{{ shield.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && shield.names[lang]">{{ shield.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('armors')">> Armors</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('armors')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showArmors }"></span>
+     <h1>Armors</h1>
+   </div>
    <div v-if="showArmors">
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('heads')">> Head</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showHeads">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('heads')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showHeads }"></span>
+     <h1>Head</h1>
+   </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showHeads">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
-         <div class="flex flex-col items-center w-60" v-if="armor.category == 'head'" @click="addToObjectives(armor)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="armor.category == 'head'" @click="addToObjectives(armor)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -257,15 +297,18 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('bodies')">> Body</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showBodies">
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('bodies')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showBodies }"></span>
+     <h1>Body</h1>
+   </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showBodies">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
-         <div class="flex flex-col items-center w-60" v-if="armor.category == 'body'" @click="addToObjectives(armor)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="armor.category == 'body'" @click="addToObjectives(armor)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -274,15 +317,18 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('legs')">> Legs</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showLegs">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('legs')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showLegs }"></span>
+      <h1>Legs</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showLegs">
        <div class="flex justify-center items-center" v-for="(armor, name) in armors">
-         <div class="flex flex-col items-center w-60" v-if="armor.category == 'leg'" @click="addToObjectives(armor)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="armor.category == 'leg'" @click="addToObjectives(armor)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + armor.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -291,17 +337,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && armor.names[lang]">{{ armor.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('key-items')">> Key Items</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('key-items')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showKeys }"></span>
+     <h1>Key Items</h1>
+   </div>
    <div v-if="showKeys">
-     <div class="flex flex-row flex-wrap w-full text-white py-5">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center">
        <div class="flex justify-center items-center" v-for="(key, name) in keys">
-         <div class="flex flex-col items-center w-60" v-if="key.category == 'key'" @click="addToObjectives(key)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="key.category == 'key'" @click="addToObjectives(key)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + key.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -310,15 +359,18 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('saddles')">> Saddles</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showSaddles">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('saddles')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showSaddles }"></span>
+      <h1>Saddles</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showSaddles">
        <div class="flex justify-center items-center" v-for="(key, name) in keys">
-         <div class="flex flex-col items-center w-60" v-if="key.category == 'saddles'" @click="addToObjectives(key)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="key.category == 'saddles'" @click="addToObjectives(key)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + key.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -327,17 +379,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('runes')">> Runes</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('runes')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showRunes }"></span>
+     <h1>Runes</h1>
+   </div>
    <div v-if="showRunes">
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showRunes">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showRunes">
        <div class="flex justify-center items-center" v-for="(rune, name) in runes">
-         <div class="flex flex-col items-center w-60" @click="addToObjectives(rune)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" @click="addToObjectives(rune)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + rune.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -346,17 +401,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="rune.names[lang]">{{ rune.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && rune.names[lang]">{{ rune.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-   <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('materials')">> Materials</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('materials')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showMaterials }"></span>
+     <h1>Materials</h1>
+   </div>
    <div v-if="showMaterials">
-     <div class="flex flex-row flex-wrap w-full text-white py-5">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
-         <div class="flex flex-col items-center w-60" v-if="material.category == 'material'" @click="addToObjectives(material)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'material'" @click="addToObjectives(material)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + material.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -365,34 +423,20 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
-         </div>
-       </div>
-     </div>
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('material-food')">> Food</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showMaterialFood">
-       <div class="flex justify-center items-center" v-for="(material, name) in materials">
-         <div class="flex flex-col items-center w-60" v-if="material.category == 'food'" @click="addToObjectives(material)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
-                  <div class="w-full h-full" :style="{
-                    backgroundImage: 'url(' + material.image.replace('\'', '') +')',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'center'
-                    }">
-                  </div>
-               </div>
-             <p class="py-2" v-if="material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-  <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('enemies')">> Enemies</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('enemies')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showEnemies }"></span>
+     <h1>Enemies</h1>
+   </div>
    <div v-if="showEnemies">
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showEnemies">
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showEnemies">
        <div class="flex justify-center items-center" v-for="(enemy, name) in enemies">
-         <div class="flex flex-col items-center w-60" @click="addToObjectives(enemy)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" @click="addToObjectives(enemy)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + enemy.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -401,35 +445,44 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="py-2" v-if="enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
    </div>
-      <h1 class="backdrop-blur text-left text-m font-bold text-white px-5 py-2 border-solid border-b border-neutral-800" @click="toggleShow('food')">> Food</h1>
+   <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('food')">
+      <span class="icon-menu3 px-5" :class="{ 'icon-menu4' : showFood }"></span>
+     <h1>Food</h1>
+   </div>
    <div v-if="showFood">
-     <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('cooked-food')">> Cooked</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showCookedFood">
-       <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-60" v-if="food.category == 'cooked'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
-               <div class="w-full h-full" :style="{
-                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'contain',
-                        backgroundPosition: 'center'
-                       }">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('material-food')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showMaterialFood }"></span>
+      <h1>Raw</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showMaterialFood">
+       <div class="flex justify-center items-center" v-for="(material, name) in materials">
+         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'food'" @click="addToObjectives(material)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+                  <div class="w-full h-full" :style="{
+                    backgroundImage: 'url(' + material.image.replace('\'', '') +')',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'contain',
+                    backgroundPosition: 'center'
+                    }">
+                  </div>
                </div>
-             </div>
-             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('roasted')">> Roasted</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showRoasted">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('cooked-food')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showCookedFood }"></span>
+      <h1>Cooked</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showCookedFood">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-60" v-if="food.category == 'roasted'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'cooked'" @click="addToObjectives(food)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -438,15 +491,18 @@ export default {
                        }">
                </div>
              </div>
-             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('frozen')">> Frozen</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showFrozen">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('roasted')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showRoasted }"></span>
+      <h1>Roasted</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showRoasted">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-60" v-if="food.category == 'frozen'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'roasted'" @click="addToObjectives(food)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -455,15 +511,18 @@ export default {
                        }">
                </div>
              </div>
-             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
-    <h1 class="text-left text-m font-bold text-white px-10 backdrop-blur-sm py-2 border-solid border-b border-neutral-900" @click="toggleShow('elixir')">> Elixir</h1>
-     <div class="flex flex-row flex-wrap w-full text-white py-5" v-if="showElixir">
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('frozen')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showFrozen }"></span>
+      <h1>Frozen</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showFrozen">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-60" v-if="food.category == 'elixir'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-20 h-20">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'frozen'" @click="addToObjectives(food)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -472,7 +531,27 @@ export default {
                        }">
                </div>
              </div>
-             <p class="py-2" v-if="food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+         </div>
+       </div>
+     </div>
+    <div class="backdrop-blur text-left flex items-center text-m font-bold text-white py-2 cursor-pointer" @click="toggleShow('elixir')">
+      <span class="icon-menu3 pr-5 pl-10" :class="{ 'icon-menu4' : showElixir }"></span>
+      <h1>Elixir</h1>
+    </div>
+     <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showElixir">
+       <div class="flex justify-center items-center" v-for="(food, name) in foods">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'elixir'" @click="addToObjectives(food)">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+               <div class="w-full h-full" :style="{
+                        backgroundImage: 'url(' + food.image.replace('\'', '') +')',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center'
+                       }">
+               </div>
+             </div>
+             <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
          </div>
        </div>
      </div>
