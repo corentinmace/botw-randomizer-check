@@ -4479,21 +4479,6 @@
             "Location" : null,
             "category" : "key"
         },
-        "Korok_Seed" : {
-            "names" : {
-                "en" : "Korok_Seed",
-                "fr" : null,
-                "it" : null,
-                "sp" : null,
-                "jp" : null,
-                "de" : null,
-                "pg" : null
-            },
-            "image" : "api/key_items/Korok_Seed.png",
-            "recipe" : null,
-            "Location" : null,
-            "category" : "key"
-        },
         "Hestu's_Gift" : {
             "names" : {
                 "en" : "Hestu's_Gift",
@@ -4910,6 +4895,21 @@
                 "pg" : null
             },
             "image" : "api/key_items/Stamina_Vessel.png",
+            "recipe" : null,
+            "Location" : null,
+            "category" : "key"
+        },
+        "Korok_Seed" : {
+            "names" : {
+                "en" : "Korok_Seed",
+                "fr" : null,
+                "it" : null,
+                "sp" : null,
+                "jp" : null,
+                "de" : null,
+                "pg" : null
+            },
+            "image" : "api/key_items/Korok_Seed.png",
             "recipe" : null,
             "Location" : null,
             "category" : "key"

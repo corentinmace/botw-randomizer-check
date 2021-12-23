@@ -372,7 +372,7 @@ export default {
                   </div>
                </div>
              <p class="pt-2" v-if="showNames && key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
-              <input :id="name" v-if="name == 'Heart_Container' || name == 'Stamina_Vessel' || name == 'Korok_Seed'" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+              <input :id="name" v-if="name == 'Heart_Container' || name == 'Stamina_Vessel' || name == 'Korok_Seed'" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
 
          </div>
        </div>
@@ -438,7 +438,7 @@ export default {
                   </div>
                </div>
              <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white  text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -460,9 +460,8 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="pt-2" v-if="showNames && enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
-             </p>
+             <p class="pt-2" v-if="showNames && enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -489,7 +488,7 @@ export default {
                   </div>
                </div>
               <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
-              <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+              <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -510,7 +509,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -531,7 +530,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -552,7 +551,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
@@ -573,7 +572,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
-             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-[25%]" type="number">
          </div>
        </div>
      </div>
