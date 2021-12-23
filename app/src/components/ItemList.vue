@@ -111,8 +111,19 @@ export default {
         
     }
 
-    const addToObjectives = (objetive) => {
-        objectives.value.push(objetive)
+    const addToObjectives = (objective) => {
+        console.log(objective)
+        let temp_counter;
+        if (document.getElementById(objective.names.en)) {
+          if (document.getElementById(objective.names.en).value == '') {
+            temp_counter = 1 
+          } else {
+            temp_counter = document.getElementById(objective.names.en).value
+          }
+          objective.counter = temp_counter
+        }
+        objectives.value.push(objective)
+
     }
 
     const removeFromObjectives = (id) => {
@@ -151,7 +162,7 @@ export default {
          <div class="flex flex-row flex-wrap w-full text-white py-5">
              <div class="flex justify-center items-center" v-for="(objective, id) in objectives">
                  <div class="flex flex-col items-center w-44 lg:w-56 py-3" @dblclick="removeFromObjectives(id) ">
-                     <div class="border p-3 rounded lg:w-20 lg:h-20 w-14 h-14 bg-emerald-700 grayscale">
+                     <div class="relative border p-3 rounded lg:w-20 lg:h-20 w-14 h-14 bg-emerald-700 grayscale">
                         <div class="w-full h-full" @click="completeObjectives($event)" :style="{
                         backgroundImage: 'url(' + objective.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -159,6 +170,7 @@ export default {
                         backgroundPosition: 'center'
                        }">
                         </div>
+                     <p v-if="objective.counter" style="right: -15px; top:-10px" class="absolute backdrop-blur-md bg-neutral-900 border h-7 px-2 flex items-center justify-center rounded-full">{{ objective.counter }}</p>
                      </div>
                      <p class="py-2" v-if="showNames && objective.names[lang]">{{ objective.names[lang].replace(/_/g, ' ') }}</p>
                  </div>
@@ -349,8 +361,8 @@ export default {
    <div v-if="showKeys">
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center">
        <div class="flex justify-center items-center" v-for="(key, name) in keys">
-         <div class="flex flex-col items-center w-40 py-2" v-if="key.category == 'key'" @click="addToObjectives(key)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="key.category == 'key'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(key)">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + key.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -360,6 +372,8 @@ export default {
                   </div>
                </div>
              <p class="pt-2" v-if="showNames && key.names[lang]">{{ key.names[lang].replace(/_/g, ' ') }}</p>
+              <input :id="name" v-if="name == 'Heart_Container' || name == 'Stamina_Vessel' || name == 'Korok_Seed'" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+
          </div>
        </div>
      </div>
@@ -413,8 +427,8 @@ export default {
    <div v-if="showMaterials">
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
-         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'material'" @click="addToObjectives(material)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'material'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(material)">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + material.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -424,6 +438,7 @@ export default {
                   </div>
                </div>
              <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
@@ -435,8 +450,8 @@ export default {
    <div v-if="showEnemies">
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showEnemies">
        <div class="flex justify-center items-center" v-for="(enemy, name) in enemies">
-         <div class="flex flex-col items-center w-40 py-2" @click="addToObjectives(enemy)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2">
+           <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(enemy)">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + enemy.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -445,7 +460,9 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="pt-2" v-if="showNames && enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}</p>
+             <p class="pt-2" v-if="showNames && enemy.names[lang]">{{ enemy.names[lang].replace(/_/g, ' ') }}
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
+             </p>
          </div>
        </div>
      </div>
@@ -461,8 +478,8 @@ export default {
     </div>
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showMaterialFood">
        <div class="flex justify-center items-center" v-for="(material, name) in materials">
-         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'food'" @click="addToObjectives(material)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="material.category == 'food'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(material)">
                   <div class="w-full h-full" :style="{
                     backgroundImage: 'url(' + material.image.replace('\'', '') +')',
                     backgroundRepeat: 'no-repeat',
@@ -471,7 +488,8 @@ export default {
                     }">
                   </div>
                </div>
-             <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
+              <p class="pt-2" v-if="showNames && material.names[lang]">{{ material.names[lang].replace(/_/g, ' ') }}</p>
+              <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
@@ -481,8 +499,8 @@ export default {
     </div>
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showCookedFood">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'cooked'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'cooked'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(food)">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -492,6 +510,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
@@ -501,8 +520,8 @@ export default {
     </div>
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showRoasted">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'roasted'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'roasted'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(food)">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -512,6 +531,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
@@ -521,8 +541,8 @@ export default {
     </div>
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showFrozen">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'frozen'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'frozen'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(food)">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -532,6 +552,7 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
@@ -541,8 +562,8 @@ export default {
     </div>
      <div class="flex flex-row flex-wrap w-full text-white py-5 justify-center" v-if="showElixir">
        <div class="flex justify-center items-center" v-for="(food, name) in foods">
-         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'elixir'" @click="addToObjectives(food)">
-             <div class="border p-3 backdrop-blur rounded w-14 h-14">
+         <div class="flex flex-col items-center w-40 py-2" v-if="food.category == 'elixir'">
+             <div class="border p-3 backdrop-blur rounded w-14 h-14" @click="addToObjectives(food)">
                <div class="w-full h-full" :style="{
                         backgroundImage: 'url(' + food.image.replace('\'', '') +')',
                         backgroundRepeat: 'no-repeat',
@@ -552,13 +573,14 @@ export default {
                </div>
              </div>
              <p class="pt-2" v-if="showNames && food.names[lang]">{{ food.names[lang].replace(/_/g, ' ') }}</p>
+             <input :id="name" placeholder="1" class="w-10 right-44 rounded bg-transparent border border-white text-sm w-9/12" type="number">
          </div>
        </div>
      </div>
    </div>
  </div>
 </div>
-<p class="text-xs bottom-0 right-6 fixed">v.Beta-0.2.0</p>
+<p class="text-xs bottom-0 right-6 fixed">v.Beta-0.3.0</p>
 <p class="text-xs bottom-4 left-2 fixed text-white">Click on the objective to complete it</p>
 <p class="text-xs bottom-0 left-2 fixed text-white">Double click to remove it</p>
 </template>
