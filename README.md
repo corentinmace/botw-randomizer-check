@@ -42,6 +42,10 @@ Start the server
   npm run dev
 ```
 
+## Support
+
+If you have any problem, feel free to join the [Discord](https://discord.gg/E9Dwgd8Vdu)
+
 
 ## License
 
