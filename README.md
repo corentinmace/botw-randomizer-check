@@ -7,7 +7,7 @@
 ## Authors
 
 - [@corentinmace](https://www.github.com/corentinmace) - Dev
-- [@ennaria](https://www.github.com/ennaria) - Help and translation
+- [@RathGate](https://www.github.com/rathgate) - Help and translation
 
 
 ## Tech Stack
